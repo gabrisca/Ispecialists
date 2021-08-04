@@ -2858,6 +2858,79 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 
@@ -3387,7 +3460,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css2?family=Baloo+2&display=swap);", ""]);
 
 // module
-exports.push([module.i, "body[data-v-b9bc2c0a] {\n  font-family: \"Baloo 2\", cursive;\n  font-size: 16px;\n  color: #b2dfdb;\n  text-rendering: optimizeLegibility;\n  font-weight: initial;\n}\n.myUl[data-v-b9bc2c0a] {\n  margin-bottom: 0;\n  padding-left: 0;\n}\n.light[data-v-b9bc2c0a] {\n  background: #b2dfdb;\n}\na[data-v-b9bc2c0a], a[data-v-b9bc2c0a]:hover {\n  text-decoration: none;\n  transition: color 0.3s ease-in-out;\n}\n#pageHeaderTitle[data-v-b9bc2c0a] {\n  margin: 2rem 0;\n  text-transform: uppercase;\n  text-align: center;\n  font-size: 2.5rem;\n}\n\n/* Cards */\n.postcard[data-v-b9bc2c0a] {\n  flex-wrap: wrap;\n  display: flex;\n  box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.66);\n  border-radius: 10px;\n  margin: 0 0 2rem 0;\n  overflow: hidden;\n  position: relative;\n  color: #ffffff;\n}\n.postcard.light[data-v-b9bc2c0a] {\n  background-color: #e1e5ea;\n}\n.postcard .t-dark[data-v-b9bc2c0a] {\n  color: #18151f;\n}\n.postcard a[data-v-b9bc2c0a] {\n  color: inherit;\n}\n.postcard h1[data-v-b9bc2c0a], .postcard .h1[data-v-b9bc2c0a] {\n  margin-bottom: 0.5rem;\n  font-weight: 500;\n  line-height: 1.2;\n}\n.postcard .small[data-v-b9bc2c0a] {\n  font-size: 80%;\n}\n.postcard .postcard__title[data-v-b9bc2c0a] {\n  font-size: 1.75rem;\n}\n.postcard .postcard__img[data-v-b9bc2c0a] {\n  max-height: 180px;\n  width: 100%;\n  -o-object-fit: cover;\n     object-fit: cover;\n  position: relative;\n}\n.postcard .postcard__img_link[data-v-b9bc2c0a] {\n  display: contents;\n}\n.postcard .postcard__bar[data-v-b9bc2c0a] {\n  width: 150px;\n  height: 15px;\n  margin: 10px 0;\n  border-radius: 5px;\n  background-color: #424242;\n  transition: width 0.2s ease;\n}\n.postcard .postcard__text[data-v-b9bc2c0a] {\n  padding: 1.5rem;\n  position: relative;\n  display: flex;\n  flex-direction: column;\n}\n.postcard .postcard__preview-txt[data-v-b9bc2c0a] {\n  overflow: hidden;\n  text-overflow: ellipsis;\n  text-align: justify;\n  height: 100%;\n}\n.postcard .postcard__tagbox[data-v-b9bc2c0a] {\n  display: flex;\n  flex-flow: row wrap;\n  font-size: 14px;\n  margin: 20px 0 0 0;\n  padding: 0;\n  justify-content: center;\n}\n.postcard .postcard__tagbox .tag__item[data-v-b9bc2c0a] {\n  display: inline-block;\n  background: rgba(83, 83, 83, 0.4);\n  border-radius: 3px;\n  padding: 2.5px 10px;\n  margin: 0 5px 5px 0;\n  cursor: default;\n  -webkit-user-select: none;\n     -moz-user-select: none;\n      -ms-user-select: none;\n          user-select: none;\n  transition: background-color 0.3s;\n}\n.postcard .postcard__tagbox .tag__item[data-v-b9bc2c0a]:hover {\n  background: rgba(83, 83, 83, 0.8);\n}\n.postcard[data-v-b9bc2c0a]:before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  background-image: linear-gradient(-70deg, #424242, transparent 50%);\n  opacity: 1;\n  border-radius: 10px;\n}\n.postcard:hover .postcard__bar[data-v-b9bc2c0a] {\n  width: 250px;\n}\n@media screen and (min-width: 769px) {\n.postcard[data-v-b9bc2c0a] {\n    flex-wrap: inherit;\n}\n.postcard .myUl[data-v-b9bc2c0a] {\n    justify-content: center;\n}\n.postcard .postcard__title[data-v-b9bc2c0a] {\n    font-size: 2rem;\n}\n.postcard .postcard__tagbox[data-v-b9bc2c0a] {\n    justify-content: start;\n}\n.postcard .postcard__img[data-v-b9bc2c0a] {\n    max-width: 300px;\n    max-height: 100%;\n    transition: transform 0.3s ease;\n}\n.postcard .postcard__text[data-v-b9bc2c0a] {\n    padding: 3rem;\n    width: 100%;\n}\n.postcard .media.postcard__text[data-v-b9bc2c0a]:before {\n    content: \"\";\n    position: absolute;\n    display: block;\n    background: #18151f;\n    top: -20%;\n    height: 130%;\n    width: 55px;\n}\n.postcard:hover .postcard__img[data-v-b9bc2c0a] {\n    transform: scale(1.1);\n}\n.postcard[data-v-b9bc2c0a]:nth-child(2n+1) {\n    flex-direction: row;\n}\n.postcard[data-v-b9bc2c0a]:nth-child(2n+0) {\n    flex-direction: row-reverse;\n}\n.postcard:nth-child(2n+1) .postcard__text[data-v-b9bc2c0a]::before {\n    left: -18px !important;\n    transform: rotate(4deg);\n}\n.postcard:nth-child(2n+0) .postcard__text[data-v-b9bc2c0a]::before {\n    right: -12px !important;\n    transform: rotate(-4deg);\n}\n}\n@media screen and (min-width: 1024px) {\n.postcard__text[data-v-b9bc2c0a] {\n    padding: 2rem 3.5rem;\n}\n.postcard__text[data-v-b9bc2c0a]:before {\n    content: \"\";\n    position: absolute;\n    display: block;\n    top: -20%;\n    height: 130%;\n    width: 55px;\n}\n.postcard.dark .postcard__text[data-v-b9bc2c0a]:before {\n    background: #18151f;\n}\n.postcard.light .postcard__text[data-v-b9bc2c0a]:before {\n    background: #e1e5ea;\n}\n}\n/* COLOR */\n.postcard .postcard__tagbox .blue.play[data-v-b9bc2c0a]:hover {\n  background: #4DB6AC;\n}\n.blue .postcard__title[data-v-b9bc2c0a]:hover {\n  color: #4DB6AC;\n}\n.blue .postcard__bar[data-v-b9bc2c0a] {\n  background-color: #4DB6AC;\n}\n.blue[data-v-b9bc2c0a]::before {\n  background-image: linear-gradient(-30deg, rgba(0, 137, 123, 0.2), transparent 50%);\n}\n.blue[data-v-b9bc2c0a]:nth-child(2n)::before {\n  background-image: linear-gradient(30deg, rgba(0, 137, 123, 0.2), transparent 50%);\n}", ""]);
+exports.push([module.i, "body[data-v-b9bc2c0a] {\n  font-family: \"Baloo 2\", cursive;\n  font-size: 16px;\n  color: #b2dfdb;\n  text-rendering: optimizeLegibility;\n  font-weight: initial;\n}\n.myUl[data-v-b9bc2c0a] {\n  margin-bottom: 0;\n  padding-left: 0;\n}\n.light[data-v-b9bc2c0a] {\n  background: #b2dfdb;\n}\na[data-v-b9bc2c0a], a[data-v-b9bc2c0a]:hover {\n  text-decoration: none;\n  transition: color 0.3s ease-in-out;\n}\n#pageHeaderTitle[data-v-b9bc2c0a] {\n  margin: 2rem 0;\n  text-transform: uppercase;\n  text-align: center;\n  font-size: 2.5rem;\n}\n\n/* Cards */\n.postcard[data-v-b9bc2c0a] {\n  flex-wrap: wrap;\n  display: flex;\n  box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.66);\n  border-radius: 10px;\n  margin: 0 0 2rem 0;\n  overflow: hidden;\n  position: relative;\n  color: #ffffff;\n}\n.postcard.light[data-v-b9bc2c0a] {\n  background-color: #e1e5ea;\n}\n.postcard .t-dark[data-v-b9bc2c0a] {\n  color: #18151f;\n}\n.postcard a[data-v-b9bc2c0a] {\n  color: inherit;\n}\n.postcard h1[data-v-b9bc2c0a], .postcard .h1[data-v-b9bc2c0a] {\n  margin-bottom: 0.5rem;\n  font-weight: 500;\n  line-height: 1.2;\n}\n.postcard .small[data-v-b9bc2c0a] {\n  font-size: 80%;\n}\n.postcard .postcard__title[data-v-b9bc2c0a] {\n  font-size: 1.75rem;\n}\n.postcard .postcard__img[data-v-b9bc2c0a] {\n  max-height: 180px;\n  width: 100%;\n  -o-object-fit: cover;\n     object-fit: cover;\n  position: relative;\n}\n.postcard .postcard__img_link[data-v-b9bc2c0a] {\n  display: contents;\n}\n.postcard .postcard__bar[data-v-b9bc2c0a] {\n  width: 150px;\n  height: 15px;\n  margin: 10px 0;\n  border-radius: 5px;\n  background-color: #424242;\n  transition: width 0.2s ease;\n}\n.postcard .postcard__text[data-v-b9bc2c0a] {\n  padding: 1.5rem;\n  position: relative;\n  display: flex;\n  flex-direction: column;\n}\n.postcard .postcard__preview-txt[data-v-b9bc2c0a] {\n  overflow: hidden;\n  text-overflow: ellipsis;\n  text-align: justify;\n  height: 100%;\n}\n.postcard .postcard__tagbox[data-v-b9bc2c0a] {\n  display: flex;\n  flex-flow: row wrap;\n  font-size: 14px;\n  margin: 20px 0 0 0;\n  padding: 0;\n  justify-content: center;\n}\n.postcard .postcard__tagbox .tag__item[data-v-b9bc2c0a] {\n  display: inline-block;\n  background: rgba(83, 83, 83, 0.4);\n  border-radius: 3px;\n  padding: 2.5px 10px;\n  margin: 0 5px 5px 0;\n  cursor: default;\n  -webkit-user-select: none;\n     -moz-user-select: none;\n      -ms-user-select: none;\n          user-select: none;\n  transition: background-color 0.3s;\n}\n.postcard .postcard__tagbox .tag__item[data-v-b9bc2c0a]:hover {\n  background: rgba(83, 83, 83, 0.8);\n}\n.postcard[data-v-b9bc2c0a]:before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  background-image: linear-gradient(-70deg, #424242, transparent 50%);\n  opacity: 1;\n  border-radius: 10px;\n}\n.postcard:hover .postcard__bar[data-v-b9bc2c0a] {\n  width: 250px;\n}\n@media screen and (max-width: 768px) {\n.postcard__img[data-v-b9bc2c0a] {\n    max-width: 40%;\n    max-height: 80%;\n    transition: transform 0.3s ease;\n    margin: 5px auto;\n    border-radius: 10px;\n}\n}\n@media screen and (min-width: 769px) {\n.postcard[data-v-b9bc2c0a] {\n    flex-wrap: inherit;\n}\n.postcard .myUl[data-v-b9bc2c0a] {\n    justify-content: center;\n}\n.postcard .postcard__title[data-v-b9bc2c0a] {\n    font-size: 2rem;\n}\n.postcard .postcard__tagbox[data-v-b9bc2c0a] {\n    justify-content: start;\n}\n.postcard .postcard__img[data-v-b9bc2c0a] {\n    max-width: 300px;\n    max-height: 100%;\n    transition: transform 0.3s ease;\n}\n.postcard .postcard__text[data-v-b9bc2c0a] {\n    padding: 3rem;\n    width: 100%;\n}\n.postcard .media.postcard__text[data-v-b9bc2c0a]:before {\n    content: \"\";\n    position: absolute;\n    display: block;\n    background: #18151f;\n    top: -20%;\n    height: 130%;\n    width: 55px;\n}\n.postcard:hover .postcard__img[data-v-b9bc2c0a] {\n    transform: scale(1.1);\n}\n.postcard[data-v-b9bc2c0a]:nth-child(2n+1) {\n    flex-direction: row;\n}\n.postcard[data-v-b9bc2c0a]:nth-child(2n+0) {\n    flex-direction: row-reverse;\n}\n.postcard:nth-child(2n+1) .postcard__text[data-v-b9bc2c0a]::before {\n    left: -18px !important;\n    transform: rotate(4deg);\n}\n.postcard:nth-child(2n+0) .postcard__text[data-v-b9bc2c0a]::before {\n    right: -12px !important;\n    transform: rotate(-4deg);\n}\n}\n@media screen and (min-width: 1024px) {\n.postcard__text[data-v-b9bc2c0a] {\n    padding: 2rem 3.5rem;\n}\n.postcard__text[data-v-b9bc2c0a]:before {\n    content: \"\";\n    position: absolute;\n    display: block;\n    top: -20%;\n    height: 130%;\n    width: 55px;\n}\n.postcard.dark .postcard__text[data-v-b9bc2c0a]:before {\n    background: #18151f;\n}\n.postcard.light .postcard__text[data-v-b9bc2c0a]:before {\n    background: #e1e5ea;\n}\n}\n/* COLOR */\n.postcard .postcard__tagbox .blue.play[data-v-b9bc2c0a]:hover {\n  background: #4DB6AC;\n}\n.blue .postcard__title[data-v-b9bc2c0a]:hover {\n  color: #4DB6AC;\n}\n.blue .postcard__bar[data-v-b9bc2c0a] {\n  background-color: #4DB6AC;\n}\n.blue[data-v-b9bc2c0a]::before {\n  background-image: linear-gradient(-30deg, rgba(0, 137, 123, 0.2), transparent 50%);\n}\n.blue[data-v-b9bc2c0a]:nth-child(2n)::before {\n  background-image: linear-gradient(30deg, rgba(0, 137, 123, 0.2), transparent 50%);\n}", ""]);
 
 // exports
 
@@ -3577,7 +3650,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, ".my-box[data-v-333bf1bb] {\n  padding: 70px;\n}\n.my-title[data-v-333bf1bb] {\n  color: #80CBC4;\n  font-style: oblique;\n  font-size: 34px;\n}\n.form-row[data-v-333bf1bb] {\n  padding: 15px;\n}\n.inline-search[data-v-333bf1bb] {\n  padding: 15px;\n}\n.custom-bg[data-v-333bf1bb] {\n  background: #44a08d;\n  /* fallback for old browsers */\n  /* Chrome 10-25, Safari 5.1-6 */\n  background: linear-gradient(to right, #093637, #44a08d);\n  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */\n}\n.wrapper[data-v-333bf1bb] {\n  height: 150px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n.page-link[data-v-333bf1bb] {\n  position: relative;\n  display: block;\n  color: #004d40 !important;\n  text-decoration: none;\n  background-color: #fff;\n  border: 1px solid #80cbc4 !important;\n}\n.page-link[data-v-333bf1bb]:hover {\n  z-index: 2;\n  color: #fff !important;\n  background-color: #80cbc4;\n  border-color: #b2dfdb;\n}\n.page-link[data-v-333bf1bb]:focus {\n  z-index: 3;\n  outline: 0;\n  box-shadow: none;\n}\n.page-item.active .page-link[data-v-333bf1bb] {\n  background-color: #80cbc4;\n}", ""]);
+exports.push([module.i, ".my-box[data-v-333bf1bb] {\n  padding: 70px;\n}\n.my-title[data-v-333bf1bb] {\n  color: #80cbc4;\n  font-style: oblique;\n  font-size: 34px;\n}\n.form-row[data-v-333bf1bb] {\n  padding: 15px;\n}\n.inline-search[data-v-333bf1bb] {\n  padding: 15px;\n}\n.custom-bg[data-v-333bf1bb] {\n  background: #44a08d;\n  /* fallback for old browsers */\n  /* Chrome 10-25, Safari 5.1-6 */\n  background: linear-gradient(to right, #093637, #44a08d);\n  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */\n}\n.wrapper[data-v-333bf1bb] {\n  height: 150px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n.page-link[data-v-333bf1bb] {\n  position: relative;\n  display: block;\n  color: #004d40 !important;\n  text-decoration: none;\n  background-color: #fff;\n  border: 1px solid #80cbc4 !important;\n}\n.page-link[data-v-333bf1bb]:hover {\n  z-index: 2;\n  color: #fff !important;\n  background-color: #80cbc4;\n  border-color: #b2dfdb;\n}\n.page-link[data-v-333bf1bb]:focus {\n  z-index: 3;\n  outline: 0;\n  box-shadow: none;\n}\n.page-item.active .page-link[data-v-333bf1bb] {\n  background-color: #80cbc4;\n}", ""]);
 
 // exports
 
@@ -3711,7 +3784,7 @@ exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap);", ""]);
 
 // module
-exports.push([module.i, "\nhtml, body {\n  font-family: 'Montserrat', sans-serif;\n}\n#app {\n  font-family: 'Roboto', sans-serif;\n}\nbody {\n    background-color: #eee\n}\n\n", ""]);
+exports.push([module.i, "\nhtml, body {\n  font-family: 'Montserrat', sans-serif;\n}\n#app {\n  font-family: 'Roboto', sans-serif;\n}\nbody {\n    background-color: #eee;\n    overflow-x: hidden;\n}\n\n", ""]);
 
 // exports
 
@@ -7283,174 +7356,226 @@ var render = function() {
     [
       !_vm.loading
         ? _c("div", { staticClass: "custom-major" }, [
-            _c("form", { staticClass: "form-row container" }, [
+            _c("form", { staticClass: "container" }, [
               _c("h4", { staticClass: "my-title" }, [
                 _vm._v(
-                  "Seleziona la specializzazione, la media dei voti e il numero delle recensioni"
+                  "\n                Seleziona la specializzazione, la media dei voti e il numero\n                delle recensioni\n            "
                 )
               ]),
               _vm._v(" "),
               _c(
                 "div",
-                {
-                  staticClass:
-                    "d-flex justify-content-between align-content-center"
-                },
+                { staticClass: "row" },
                 [
                   _c(
-                    "select",
-                    {
-                      directives: [
-                        {
-                          name: "model",
-                          rawName: "v-model",
-                          value: _vm.filters["spec"],
-                          expression: "filters['spec']"
-                        }
-                      ],
-                      staticClass: "mb-1 col-3 col-xs-12",
-                      attrs: { name: "", id: "" },
-                      on: {
-                        change: function($event) {
-                          var $$selectedVal = Array.prototype.filter
-                            .call($event.target.options, function(o) {
-                              return o.selected
-                            })
-                            .map(function(o) {
-                              var val = "_value" in o ? o._value : o.value
-                              return val
-                            })
-                          _vm.$set(
-                            _vm.filters,
-                            "spec",
-                            $event.target.multiple
-                              ? $$selectedVal
-                              : $$selectedVal[0]
-                          )
-                        }
-                      }
-                    },
+                    "div",
+                    { staticClass: "input-group mb-3 col-xs-12 col-lg" },
                     [
-                      _c("option", { attrs: { value: "", selected: "" } }, [
-                        _vm._v("Seleziona tutti i dottori")
-                      ]),
-                      _vm._v(" "),
-                      _vm._l(_vm.specializations, function(specialization) {
-                        return _c(
-                          "option",
-                          {
-                            key: "specialization" + specialization.id,
-                            domProps: { value: specialization.id }
-                          },
-                          [_vm._v(_vm._s(specialization.name))]
-                        )
-                      })
-                    ],
-                    2
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "select",
-                    {
-                      directives: [
+                      _c(
+                        "select",
                         {
-                          name: "model",
-                          rawName: "v-model",
-                          value: _vm.filters["avgRating"],
-                          expression: "filters['avgRating']"
-                        }
-                      ],
-                      staticClass: "mb-1 col-3 col-xs-12",
-                      attrs: { name: "", id: "" },
-                      on: {
-                        change: function($event) {
-                          var $$selectedVal = Array.prototype.filter
-                            .call($event.target.options, function(o) {
-                              return o.selected
-                            })
-                            .map(function(o) {
-                              var val = "_value" in o ? o._value : o.value
-                              return val
-                            })
-                          _vm.$set(
-                            _vm.filters,
-                            "avgRating",
-                            $event.target.multiple
-                              ? $$selectedVal
-                              : $$selectedVal[0]
-                          )
-                        }
-                      }
-                    },
-                    [
-                      _c("option", { attrs: { value: "" } }, [
-                        _vm._v("Nessun filtro selezionato")
-                      ]),
+                          directives: [
+                            {
+                              name: "model",
+                              rawName: "v-model",
+                              value: _vm.filters["spec"],
+                              expression: "filters['spec']"
+                            }
+                          ],
+                          staticClass: "form-select",
+                          attrs: { id: "inputGroupSelect02" },
+                          on: {
+                            change: function($event) {
+                              var $$selectedVal = Array.prototype.filter
+                                .call($event.target.options, function(o) {
+                                  return o.selected
+                                })
+                                .map(function(o) {
+                                  var val = "_value" in o ? o._value : o.value
+                                  return val
+                                })
+                              _vm.$set(
+                                _vm.filters,
+                                "spec",
+                                $event.target.multiple
+                                  ? $$selectedVal
+                                  : $$selectedVal[0]
+                              )
+                            }
+                          }
+                        },
+                        [
+                          _c("option", { attrs: { value: "", selected: "" } }, [
+                            _vm._v("Seleziona tutti i dottori")
+                          ]),
+                          _vm._v(" "),
+                          _vm._l(_vm.specializations, function(specialization) {
+                            return _c(
+                              "option",
+                              {
+                                key: "specialization" + specialization.id,
+                                domProps: { value: specialization.id }
+                              },
+                              [_vm._v(_vm._s(specialization.name))]
+                            )
+                          })
+                        ],
+                        2
+                      ),
                       _vm._v(" "),
-                      _c("option", { attrs: { value: "1" } }, [_vm._v("★")]),
-                      _vm._v(" "),
-                      _c("option", { attrs: { value: "2" } }, [_vm._v("★★")]),
-                      _vm._v(" "),
-                      _c("option", { attrs: { value: "3" } }, [_vm._v("★★★")]),
-                      _vm._v(" "),
-                      _c("option", { attrs: { value: "4" } }, [_vm._v("★★★★")]),
-                      _vm._v(" "),
-                      _c("option", { attrs: { value: "5" } }, [_vm._v("★★★★★")])
+                      _c(
+                        "label",
+                        {
+                          staticClass: "input-group-text",
+                          attrs: { for: "inputGroupSelect02" }
+                        },
+                        [_vm._v("Specializzazioni")]
+                      )
                     ]
                   ),
                   _vm._v(" "),
                   _c(
-                    "select",
-                    {
-                      directives: [
-                        {
-                          name: "model",
-                          rawName: "v-model",
-                          value: _vm.filters["sortRevCount"],
-                          expression: "filters['sortRevCount']"
-                        }
-                      ],
-                      staticClass: "mb-1 col-3 col-xs-12",
-                      attrs: { name: "", id: "" },
-                      on: {
-                        change: function($event) {
-                          var $$selectedVal = Array.prototype.filter
-                            .call($event.target.options, function(o) {
-                              return o.selected
-                            })
-                            .map(function(o) {
-                              var val = "_value" in o ? o._value : o.value
-                              return val
-                            })
-                          _vm.$set(
-                            _vm.filters,
-                            "sortRevCount",
-                            $event.target.multiple
-                              ? $$selectedVal
-                              : $$selectedVal[0]
-                          )
-                        }
-                      }
-                    },
+                    "div",
+                    { staticClass: "input-group mb-3 col-xs-12 col-lg" },
                     [
-                      _c("option", { attrs: { value: "" } }, [
-                        _vm._v("Nessun filtro selezionato")
-                      ]),
+                      _c(
+                        "select",
+                        {
+                          directives: [
+                            {
+                              name: "model",
+                              rawName: "v-model",
+                              value: _vm.filters["avgRating"],
+                              expression: "filters['avgRating']"
+                            }
+                          ],
+                          staticClass: "form-select",
+                          attrs: { id: "inputGroupSelect02" },
+                          on: {
+                            change: function($event) {
+                              var $$selectedVal = Array.prototype.filter
+                                .call($event.target.options, function(o) {
+                                  return o.selected
+                                })
+                                .map(function(o) {
+                                  var val = "_value" in o ? o._value : o.value
+                                  return val
+                                })
+                              _vm.$set(
+                                _vm.filters,
+                                "avgRating",
+                                $event.target.multiple
+                                  ? $$selectedVal
+                                  : $$selectedVal[0]
+                              )
+                            }
+                          }
+                        },
+                        [
+                          _c("option", { attrs: { value: "" } }, [
+                            _vm._v("Nessun filtro selezionato")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "1" } }, [
+                            _vm._v("★")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "2" } }, [
+                            _vm._v("★★")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "3" } }, [
+                            _vm._v("★★★")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "4" } }, [
+                            _vm._v("★★★★")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "5" } }, [
+                            _vm._v("★★★★★")
+                          ])
+                        ]
+                      ),
                       _vm._v(" "),
-                      _c("option", { attrs: { value: "desc" } }, [
-                        _vm._v("ord. discendente")
-                      ]),
+                      _c(
+                        "label",
+                        {
+                          staticClass: "input-group-text",
+                          attrs: { for: "inputGroupSelect02" }
+                        },
+                        [_vm._v("Media Voto")]
+                      )
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "div",
+                    { staticClass: "input-group mb-3 col-xs-12 col-lg" },
+                    [
+                      _c(
+                        "select",
+                        {
+                          directives: [
+                            {
+                              name: "model",
+                              rawName: "v-model",
+                              value: _vm.filters["sortRevCount"],
+                              expression: "filters['sortRevCount']"
+                            }
+                          ],
+                          staticClass: "form-select",
+                          attrs: { id: "inputGroupSelect02" },
+                          on: {
+                            change: function($event) {
+                              var $$selectedVal = Array.prototype.filter
+                                .call($event.target.options, function(o) {
+                                  return o.selected
+                                })
+                                .map(function(o) {
+                                  var val = "_value" in o ? o._value : o.value
+                                  return val
+                                })
+                              _vm.$set(
+                                _vm.filters,
+                                "sortRevCount",
+                                $event.target.multiple
+                                  ? $$selectedVal
+                                  : $$selectedVal[0]
+                              )
+                            }
+                          }
+                        },
+                        [
+                          _c("option", { attrs: { value: "" } }, [
+                            _vm._v("Nessun filtro selezionato")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "desc" } }, [
+                            _vm._v("Più recensioni")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "asc" } }, [
+                            _vm._v("Meno recensioni")
+                          ])
+                        ]
+                      ),
                       _vm._v(" "),
-                      _c("option", { attrs: { value: "asc" } }, [
-                        _vm._v("ord. ascendente")
-                      ])
+                      _c(
+                        "label",
+                        {
+                          staticClass: "input-group-text",
+                          attrs: { for: "inputGroupSelect02" }
+                        },
+                        [_vm._v("Recensioni")]
+                      )
                     ]
                   ),
                   _vm._v(" "),
                   _c(
                     "vs-button",
                     {
-                      staticClass: "col",
+                      staticClass: "col-xs-12 col-lg-1",
                       attrs: {
                         color: _vm.colorx,
                         "gradient-color-secondary": _vm.colorx2,
@@ -7500,7 +7625,7 @@ var render = function() {
                     _vm._v(" "),
                     _c("h6", { staticClass: "my-title" }, [
                       _vm._v(
-                        "Effettua una nuova ricerca per trovare lo specialista adetto a te"
+                        "\n                    Effettua una nuova ricerca per trovare lo specialista\n                    adetto a te\n                "
                       )
                     ])
                   ])
@@ -7622,7 +7747,9 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("h1", { staticClass: "my-title" }, [
-      _vm._v("Nessun dottore con i parametri da te scelti "),
+      _vm._v(
+        "\n                    Nessun dottore con i parametri da te scelti\n                    "
+      ),
       _c("i", { staticClass: "fas fa-sad-tear" }),
       _c("i", { staticClass: "fas fa-sad-tear" }),
       _c("i", { staticClass: "fas fa-sad-tear" })

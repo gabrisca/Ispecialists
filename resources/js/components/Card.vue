@@ -230,6 +230,16 @@ a, a:hover {
   }
 }
 
+@media screen and (max-width: 768px) {
+    .postcard__img {
+      max-width: 40%;
+      max-height: 80%;
+      transition: transform 0.3s ease;
+      margin: 5px auto;
+      border-radius: 10px;
+    }
+}
+
 @media screen and (min-width: 769px) {
   .postcard {
 

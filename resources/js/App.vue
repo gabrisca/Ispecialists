@@ -36,7 +36,8 @@ html, body {
 }
 
 body {
-    background-color: #eee
+    background-color: #eee;
+    overflow-x: hidden;
 }
 
 </style>

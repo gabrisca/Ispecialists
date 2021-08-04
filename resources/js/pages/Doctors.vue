@@ -1,9 +1,79 @@
 <template>
     <div class="custom-bg">
         <div class="custom-major" v-if="!loading">
-            <form class="form-row container">
-                <h4 class="my-title">Seleziona la specializzazione, la media dei voti e il numero delle recensioni</h4>
-                <div class="d-flex justify-content-between align-content-center">
+            <form class="container">
+                <h4 class="my-title">
+                    Seleziona la specializzazione, la media dei voti e il numero
+                    delle recensioni
+                </h4>
+                <div class="row">
+                    <div class="input-group mb-3 col-xs-12 col-lg">
+                        <select
+                            v-model="filters['spec']"
+                            class="form-select"
+                            id="inputGroupSelect02"
+                        >
+                            <option value="" selected
+                                >Seleziona tutti i dottori</option
+                            >
+                            <option
+                                :value="specialization.id"
+                                v-for="specialization in specializations"
+                                :key="'specialization' + specialization.id"
+                                >{{ specialization.name }}</option
+                            >
+                        </select>
+                        <label class="input-group-text" for="inputGroupSelect02"
+                            >Specializzazioni</label
+                        >
+                    </div>
+                    <div class="input-group mb-3 col-xs-12 col-lg">
+                        <select
+                            v-model="filters['avgRating']"
+                            class="form-select"
+                            id="inputGroupSelect02"
+                        >
+                            <option value="">Nessun filtro selezionato</option>
+                            <option value="1">&starf;</option>
+                            <option value="2">&starf;&starf;</option>
+                            <option value="3">&starf;&starf;&starf;</option>
+                            <option value="4"
+                                >&starf;&starf;&starf;&starf;</option
+                            >
+                            <option value="5"
+                                >&starf;&starf;&starf;&starf;&starf;</option
+                            >
+                        </select>
+                        <label class="input-group-text" for="inputGroupSelect02"
+                            >Media Voto</label
+                        >
+                    </div>
+                    <div class="input-group mb-3 col-xs-12 col-lg">
+                        <select
+                            v-model="filters['sortRevCount']"
+                            class="form-select"
+                            id="inputGroupSelect02"
+                        >
+                            <option value="">Nessun filtro selezionato</option>
+                            <option value="desc">Più recensioni</option>
+                            <option value="asc">Meno recensioni</option>
+                        </select>
+                        <label class="input-group-text" for="inputGroupSelect02"
+                            >Recensioni</label
+                        >
+                    </div>
+                    <vs-button
+                        class="col-xs-12 col-lg-1"
+                        :color="colorx"
+                        :gradient-color-secondary="colorx2"
+                        type="gradient"
+                        @click="getDocs2()"
+                    >
+                        Cerca il dottore
+                    </vs-button>
+                </div>
+
+                <!-- <div class="d-flex justify-content-between align-content-center">
 
                     <select
                         class="mb-1 col-3 col-xs-12"
@@ -43,8 +113,8 @@
                             v-model="filters['sortRevCount']"
                         >
                             <option value="">Nessun filtro selezionato</option>
-                            <option value="desc">ord. discendente</option>
-                            <option value="asc">ord. ascendente</option>
+                            <option value="desc">Più recensioni</option>
+                            <option value="asc">Meno recensioni</option>
                         </select>
 
 
@@ -57,7 +127,7 @@
                     >
                         Cerca il dottore
                     </vs-button>
-                </div>
+                </div> -->
             </form>
 
             <div>
@@ -77,16 +147,19 @@
                     />
                 </div>
 
-                <div
-                v-else
-                class="container text-center  my-box"
-            >
-                <h1 class="my-title">Nessun dottore con i parametri da te scelti <i class="fas fa-sad-tear"></i><i class="fas fa-sad-tear"></i><i class="fas fa-sad-tear"></i></h1>
+                <div v-else class="container text-center  my-box">
+                    <h1 class="my-title">
+                        Nessun dottore con i parametri da te scelti
+                        <i class="fas fa-sad-tear"></i
+                        ><i class="fas fa-sad-tear"></i
+                        ><i class="fas fa-sad-tear"></i>
+                    </h1>
 
-
-                <h6 class="my-title">Effettua una nuova ricerca per trovare lo specialista adetto a te</h6>
-
-            </div>
+                    <h6 class="my-title">
+                        Effettua una nuova ricerca per trovare lo specialista
+                        adetto a te
+                    </h6>
+                </div>
             </div>
 
             <!-- paginazione -->
@@ -262,11 +335,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.my-box{
+.my-box {
     padding: 70px;
 }
-.my-title{
-    color: #80CBC4;
+.my-title {
+    color: #80cbc4;
     font-style: oblique;
     font-size: 34px;
 }
