@@ -2858,18 +2858,6 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 
 
 
@@ -7296,6 +7284,12 @@ var render = function() {
       !_vm.loading
         ? _c("div", { staticClass: "custom-major" }, [
             _c("form", { staticClass: "form-row container" }, [
+              _c("h4", { staticClass: "my-title" }, [
+                _vm._v(
+                  "Seleziona la specializzazione, la media dei voti e il numero delle recensioni"
+                )
+              ]),
+              _vm._v(" "),
               _c(
                 "div",
                 {
@@ -7304,208 +7298,152 @@ var render = function() {
                 },
                 [
                   _c(
-                    "div",
-                    { staticClass: "d-flex align-content-between flex-column" },
+                    "select",
+                    {
+                      directives: [
+                        {
+                          name: "model",
+                          rawName: "v-model",
+                          value: _vm.filters["spec"],
+                          expression: "filters['spec']"
+                        }
+                      ],
+                      staticClass: "mb-1 col-3 col-xs-12",
+                      attrs: { name: "", id: "" },
+                      on: {
+                        change: function($event) {
+                          var $$selectedVal = Array.prototype.filter
+                            .call($event.target.options, function(o) {
+                              return o.selected
+                            })
+                            .map(function(o) {
+                              var val = "_value" in o ? o._value : o.value
+                              return val
+                            })
+                          _vm.$set(
+                            _vm.filters,
+                            "spec",
+                            $event.target.multiple
+                              ? $$selectedVal
+                              : $$selectedVal[0]
+                          )
+                        }
+                      }
+                    },
                     [
-                      _c(
-                        "label",
-                        {
-                          staticClass: "text-white fs-6 text",
-                          attrs: { for: "" }
-                        },
-                        [_vm._v("Specializzazione")]
-                      ),
+                      _c("option", { attrs: { value: "", selected: "" } }, [
+                        _vm._v("Seleziona tutti i dottori")
+                      ]),
                       _vm._v(" "),
-                      _c(
-                        "select",
+                      _vm._l(_vm.specializations, function(specialization) {
+                        return _c(
+                          "option",
+                          {
+                            key: "specialization" + specialization.id,
+                            domProps: { value: specialization.id }
+                          },
+                          [_vm._v(_vm._s(specialization.name))]
+                        )
+                      })
+                    ],
+                    2
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "select",
+                    {
+                      directives: [
                         {
-                          directives: [
-                            {
-                              name: "model",
-                              rawName: "v-model",
-                              value: _vm.filters["spec"],
-                              expression: "filters['spec']"
-                            }
-                          ],
-                          staticClass: "mb-1 col-3 col-xs-12",
-                          staticStyle: { width: "100%" },
-                          attrs: { name: "", id: "" },
-                          on: {
-                            change: function($event) {
-                              var $$selectedVal = Array.prototype.filter
-                                .call($event.target.options, function(o) {
-                                  return o.selected
-                                })
-                                .map(function(o) {
-                                  var val = "_value" in o ? o._value : o.value
-                                  return val
-                                })
-                              _vm.$set(
-                                _vm.filters,
-                                "spec",
-                                $event.target.multiple
-                                  ? $$selectedVal
-                                  : $$selectedVal[0]
-                              )
-                            }
-                          }
-                        },
-                        [
-                          _c("option", { attrs: { value: "", selected: "" } }, [
-                            _vm._v("Seleziona tutti i dottori")
-                          ]),
-                          _vm._v(" "),
-                          _vm._l(_vm.specializations, function(specialization) {
-                            return _c(
-                              "option",
-                              {
-                                key: "specialization" + specialization.id,
-                                domProps: { value: specialization.id }
-                              },
-                              [_vm._v(_vm._s(specialization.name))]
-                            )
-                          })
-                        ],
-                        2
-                      )
+                          name: "model",
+                          rawName: "v-model",
+                          value: _vm.filters["avgRating"],
+                          expression: "filters['avgRating']"
+                        }
+                      ],
+                      staticClass: "mb-1 col-3 col-xs-12",
+                      attrs: { name: "", id: "" },
+                      on: {
+                        change: function($event) {
+                          var $$selectedVal = Array.prototype.filter
+                            .call($event.target.options, function(o) {
+                              return o.selected
+                            })
+                            .map(function(o) {
+                              var val = "_value" in o ? o._value : o.value
+                              return val
+                            })
+                          _vm.$set(
+                            _vm.filters,
+                            "avgRating",
+                            $event.target.multiple
+                              ? $$selectedVal
+                              : $$selectedVal[0]
+                          )
+                        }
+                      }
+                    },
+                    [
+                      _c("option", { attrs: { value: "" } }, [
+                        _vm._v("Nessun filtro selezionato")
+                      ]),
+                      _vm._v(" "),
+                      _c("option", { attrs: { value: "1" } }, [_vm._v("★")]),
+                      _vm._v(" "),
+                      _c("option", { attrs: { value: "2" } }, [_vm._v("★★")]),
+                      _vm._v(" "),
+                      _c("option", { attrs: { value: "3" } }, [_vm._v("★★★")]),
+                      _vm._v(" "),
+                      _c("option", { attrs: { value: "4" } }, [_vm._v("★★★★")]),
+                      _vm._v(" "),
+                      _c("option", { attrs: { value: "5" } }, [_vm._v("★★★★★")])
                     ]
                   ),
                   _vm._v(" "),
                   _c(
-                    "div",
-                    { staticClass: "d-flex align-content-between flex-column" },
+                    "select",
+                    {
+                      directives: [
+                        {
+                          name: "model",
+                          rawName: "v-model",
+                          value: _vm.filters["sortRevCount"],
+                          expression: "filters['sortRevCount']"
+                        }
+                      ],
+                      staticClass: "mb-1 col-3 col-xs-12",
+                      attrs: { name: "", id: "" },
+                      on: {
+                        change: function($event) {
+                          var $$selectedVal = Array.prototype.filter
+                            .call($event.target.options, function(o) {
+                              return o.selected
+                            })
+                            .map(function(o) {
+                              var val = "_value" in o ? o._value : o.value
+                              return val
+                            })
+                          _vm.$set(
+                            _vm.filters,
+                            "sortRevCount",
+                            $event.target.multiple
+                              ? $$selectedVal
+                              : $$selectedVal[0]
+                          )
+                        }
+                      }
+                    },
                     [
-                      _c(
-                        "label",
-                        {
-                          staticClass: "text-white fs-6 text",
-                          attrs: { for: "" }
-                        },
-                        [_vm._v("Filtra per voto")]
-                      ),
+                      _c("option", { attrs: { value: "" } }, [
+                        _vm._v("Nessun filtro selezionato")
+                      ]),
                       _vm._v(" "),
-                      _c(
-                        "select",
-                        {
-                          directives: [
-                            {
-                              name: "model",
-                              rawName: "v-model",
-                              value: _vm.filters["avgRating"],
-                              expression: "filters['avgRating']"
-                            }
-                          ],
-                          staticClass: "mb-1 col-3 col-xs-12",
-                          staticStyle: { width: "100%" },
-                          attrs: { name: "", id: "" },
-                          on: {
-                            change: function($event) {
-                              var $$selectedVal = Array.prototype.filter
-                                .call($event.target.options, function(o) {
-                                  return o.selected
-                                })
-                                .map(function(o) {
-                                  var val = "_value" in o ? o._value : o.value
-                                  return val
-                                })
-                              _vm.$set(
-                                _vm.filters,
-                                "avgRating",
-                                $event.target.multiple
-                                  ? $$selectedVal
-                                  : $$selectedVal[0]
-                              )
-                            }
-                          }
-                        },
-                        [
-                          _c("option", { attrs: { value: "" } }, [
-                            _vm._v("Nessun filtro selezionato")
-                          ]),
-                          _vm._v(" "),
-                          _c("option", { attrs: { value: "1" } }, [
-                            _vm._v("1")
-                          ]),
-                          _vm._v(" "),
-                          _c("option", { attrs: { value: "2" } }, [
-                            _vm._v("2")
-                          ]),
-                          _vm._v(" "),
-                          _c("option", { attrs: { value: "3" } }, [
-                            _vm._v("3")
-                          ]),
-                          _vm._v(" "),
-                          _c("option", { attrs: { value: "4" } }, [
-                            _vm._v("4")
-                          ]),
-                          _vm._v(" "),
-                          _c("option", { attrs: { value: "5" } }, [_vm._v("5")])
-                        ]
-                      )
-                    ]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "div",
-                    { staticClass: "d-flex align-content-between flex-column" },
-                    [
-                      _c(
-                        "label",
-                        {
-                          staticClass: "text-white fs-6 text",
-                          attrs: { for: "" }
-                        },
-                        [_vm._v("Filtra per numero di recensioni")]
-                      ),
+                      _c("option", { attrs: { value: "desc" } }, [
+                        _vm._v("ord. discendente")
+                      ]),
                       _vm._v(" "),
-                      _c(
-                        "select",
-                        {
-                          directives: [
-                            {
-                              name: "model",
-                              rawName: "v-model",
-                              value: _vm.filters["sortRevCount"],
-                              expression: "filters['sortRevCount']"
-                            }
-                          ],
-                          staticClass: "mb-1 col-3 col-xs-12",
-                          staticStyle: { width: "100%" },
-                          attrs: { name: "", id: "" },
-                          on: {
-                            change: function($event) {
-                              var $$selectedVal = Array.prototype.filter
-                                .call($event.target.options, function(o) {
-                                  return o.selected
-                                })
-                                .map(function(o) {
-                                  var val = "_value" in o ? o._value : o.value
-                                  return val
-                                })
-                              _vm.$set(
-                                _vm.filters,
-                                "sortRevCount",
-                                $event.target.multiple
-                                  ? $$selectedVal
-                                  : $$selectedVal[0]
-                              )
-                            }
-                          }
-                        },
-                        [
-                          _c("option", { attrs: { value: "" } }, [
-                            _vm._v("Nessun filtro selezionato")
-                          ]),
-                          _vm._v(" "),
-                          _c("option", { attrs: { value: "desc" } }, [
-                            _vm._v("ord. discendente")
-                          ]),
-                          _vm._v(" "),
-                          _c("option", { attrs: { value: "asc" } }, [
-                            _vm._v("ord. ascendente")
-                          ])
-                        ]
-                      )
+                      _c("option", { attrs: { value: "asc" } }, [
+                        _vm._v("ord. ascendente")
+                      ])
                     ]
                   ),
                   _vm._v(" "),

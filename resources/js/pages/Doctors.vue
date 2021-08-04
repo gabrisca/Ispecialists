@@ -2,13 +2,10 @@
     <div class="custom-bg">
         <div class="custom-major" v-if="!loading">
             <form class="form-row container">
-
+                <h4 class="my-title">Seleziona la specializzazione, la media dei voti e il numero delle recensioni</h4>
                 <div class="d-flex justify-content-between align-content-center">
 
-                    <div class="d-flex align-content-between flex-column">
-                    <label class="text-white fs-6 text" for="">Specializzazione</label>
                     <select
-                        style="width:100%"
                         class="mb-1 col-3 col-xs-12"
                         name=""
                         id=""
@@ -24,30 +21,22 @@
                             >{{ specialization.name }}</option
                         >
                     </select>
-                    </div>
 
-                    <div class="d-flex align-content-between flex-column">
-                    <label class="text-white fs-6 text" for="">Filtra per voto</label>
                         <select
-                            style="width:100%"
                             class="mb-1 col-3 col-xs-12"
                             name=""
                             id=""
                             v-model="filters['avgRating']"
                         >
                             <option value="">Nessun filtro selezionato</option>
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
+                            <option value="1">&starf;</option>
+                            <option value="2">&starf;&starf;</option>
+                            <option value="3">&starf;&starf;&starf;</option>
+                            <option value="4">&starf;&starf;&starf;&starf;</option>
+                            <option value="5">&starf;&starf;&starf;&starf;&starf;</option>
                         </select>
-                    </div>
 
-                    <div class="d-flex align-content-between flex-column">
-                    <label class="text-white fs-6 text" for="">Filtra per numero di recensioni</label>
                         <select
-                            style="width:100%"
                             class="mb-1 col-3 col-xs-12"
                             name=""
                             id=""
@@ -57,7 +46,7 @@
                             <option value="desc">ord. discendente</option>
                             <option value="asc">ord. ascendente</option>
                         </select>
-                    </div>
+
 
                     <vs-button
                         class="col"
@@ -66,7 +55,6 @@
                         type="gradient"
                         @click="getDocs2()"
                     >
-                        <!-- bottone x la searc -->
                         Cerca il dottore
                     </vs-button>
                 </div>
