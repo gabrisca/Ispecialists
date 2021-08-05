@@ -6037,7 +6037,7 @@ var staticRenderFns = [
       _c("section", { staticClass: "py-5" }, [
         _c("div", { staticClass: "container" }, [
           _c("h1", { staticClass: "fw-light" }, [
-            _vm._v("In molti si sono già affidati a iSpecialists..")
+            _vm._v("In molti si sono già affidati a iSpecialists...")
           ]),
           _vm._v(" "),
           _c("p", { staticClass: "lead" }, [

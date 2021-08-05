@@ -129,7 +129,7 @@
 
     <section class="py-5"> <!-- Page Content -->
     <div class="container">
-        <h1 class="fw-light">In molti si sono già affidati a iSpecialists..</h1>
+        <h1 class="fw-light">In molti si sono già affidati a iSpecialists...</h1>
         <p class="lead">Unisciti agli oltre 123.000 utenti attivi sulla nostra piattaforma che cercano un professionista adatto alle loro esigenze. Scegli il tuo specialista oggi stesso.</p>
     </div>
     </section> <!-- /Page Content -->
