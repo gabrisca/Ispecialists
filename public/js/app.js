@@ -2082,8 +2082,98 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
-  name: 'Banner'
+  name: "Banner"
 });
 
 /***/ }),
@@ -3541,7 +3631,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "@charset \"UTF-8\";\nbody[data-v-3d01b757] {\n  margin-top: 20px;\n}\n.btn.btn-outline-primary[data-v-3d01b757]:hover, .bg-primary[data-v-3d01b757] {\n  background-color: #80CBC4 !important;\n}\n.section-medium[data-v-3d01b757] {\n  padding: 55px 0px;\n}\n.testimonial-four blockquote[data-v-3d01b757]:hover::after, .section-arrow-primary-color.section-arrow--bottom-center[data-v-3d01b757]:after {\n  border-right-color: #80CBC4;\n}\n.section-arrow-primary-color.section-arrow--bottom-center[data-v-3d01b757]:after {\n  background-color: #80CBC4;\n  border-right-color: #80CBC4;\n  border-bottom-color: #80CBC4;\n}\n.section-arrow--bottom-center[data-v-3d01b757]:after {\n  z-index: 1;\n  position: absolute;\n  left: 50%;\n  margin-left: -15px;\n  content: \"\";\n  position: absolute;\n  bottom: -15px;\n  width: 30px;\n  height: 30px;\n  border-right: 1px solid #262626;\n  border-bottom: 1px solid #262626;\n  transform: rotate(45deg);\n  background-color: #262626;\n}\n.text-white h1[data-v-3d01b757], .text-white h2[data-v-3d01b757], .text-white h3[data-v-3d01b757], .text-white h4[data-v-3d01b757], .text-white h5[data-v-3d01b757], .text-white h6[data-v-3d01b757] {\n  color: white !important;\n}\n.section-title[data-v-3d01b757] {\n  font-size: 32px;\n  font-weight: 600;\n  margin-top: 0.45em;\n  margin-bottom: 0.35em;\n  color: #303133;\n  letter-spacing: -0.02em;\n}\n.section-sub-title[data-v-3d01b757] {\n  font-size: 18px;\n  margin-bottom: 20px;\n  font-weight: 400;\n}\n.section-arrow-primary-color.section-arrow--bottom-center[data-v-3d01b757]:after {\n  border-bottom-color: #80CBC4;\n}\n.section-arrow-primary-color.section-arrow--bottom-center[data-v-3d01b757]:after {\n  background-color: #80CBC4;\n}\n.special-heading.line span[data-v-3d01b757]:before, .special-heading.line span[data-v-3d01b757]:after, .footer.footer-minimal[data-v-3d01b757], .t-bordered[data-v-3d01b757] {\n  border-top-color: #eaeaea;\n}\n.t-bordered[data-v-3d01b757] {\n  border-top: 1px solid #eaeaea;\n}\n.section-primary[data-v-3d01b757] {\n  padding: 75px 0px;\n}\nsection[data-v-3d01b757] {\n  position: relative;\n}\n.testimonial-two[data-v-3d01b757] {\n  padding: 20px;\n  border: 2px solid #80CBC4;\n  border-radius: 2px;\n}\n.testimonial-two blockquote p[data-v-3d01b757]:before {\n  font-size: 54px;\n  color: #0cb4ce;\n  font-weight: 900;\n  left: 10px;\n  color: #FFF;\n  content: \"\\201C\";\n  font-style: normal;\n  line-height: 1;\n  position: absolute;\n  top: 5px;\n  font-size: 45px;\n}\n.testimonial-two blockquote p[data-v-3d01b757]:after {\n  font-size: 54px;\n  color: #0cb4ce;\n  content: \"\\201D\";\n  font-size: 80px;\n  font-style: normal;\n  line-height: 1;\n  position: absolute;\n  bottom: -0.5em;\n  right: 10px;\n  font-weight: 900;\n  transform: scaleY(-1);\n  font-size: 45px;\n  bottom: -5px;\n}\n.testimonial-two blockquote[data-v-3d01b757] {\n  padding: 15px 15px 15px 48px;\n  position: relative;\n}\n.testimonial-two blockquote p[data-v-3d01b757]:before,\n.testimonial-two blockquote p[data-v-3d01b757]:after {\n  color: #0cb4ce;\n  font-weight: 900;\n}\n.testimonial-two blockquote p[data-v-3d01b757] {\n  font-size: inherit;\n  font-weight: inherit;\n}\n.testimonial-two .testimonial-author p[data-v-3d01b757] {\n  color: #999;\n  margin: 0 0 0 25px;\n  text-align: left;\n}\n.testimonial-two .testimonial-author strong[data-v-3d01b757] {\n  display: block;\n  padding-top: 10px;\n  margin-bottom: -2px;\n  font-weight: 500;\n  font-size: 14px;\n  color: #444;\n}\n.testimonial-two .testimonial-author span[data-v-3d01b757] {\n  color: #666;\n  display: block;\n  font-size: 12px;\n}\n.testimonial-two .testimonial-author .testimonial-author-thumbnail[data-v-3d01b757] {\n  float: left;\n  margin-right: 15px;\n  width: auto;\n}\n.testimonial-two .testimonial-author img[data-v-3d01b757] {\n  max-width: 55px;\n}\n.testimonial-two .testimonial-author[data-v-3d01b757] {\n  margin-left: 12px;\n  margin-bottom: 15px;\n}\n.testimonial-two .owl-theme .owl-nav.disabled + .owl-dots[data-v-3d01b757] {\n  margin-top: 0px;\n}\n.testimonial-two .owl-theme .owl-dots[data-v-3d01b757] {\n  text-align: left;\n  margin-left: 50px;\n}\n.testimonial-two .owl-carousel .owl-dots .owl-dot.active span[data-v-3d01b757],\n.testimonial-two .owl-carousel .owl-dots .owl-dot:hover span[data-v-3d01b757] {\n  border-color: #0cb4ce;\n}\n.testimonial-two .owl-carousel .owl-dots .owl-dot.active span[data-v-3d01b757]:before,\n.testimonial-two .owl-carousel .owl-dots .owl-dot:hover span[data-v-3d01b757]:before {\n  background-color: #0cb4ce;\n}\n.testimonial-three .testimonial-image[data-v-3d01b757] {\n  float: left;\n  margin: 0 20px 0 0;\n  width: 80px;\n  height: 80px;\n  border-radius: 100px;\n  overflow: hidden;\n}\n.testimonial-three .testimonial-content[data-v-3d01b757] {\n  overflow: hidden;\n}\n.testimonial-three .testimonial-meta[data-v-3d01b757] {\n  position: relative;\n  overflow: hidden;\n  margin-left: 100px;\n}\n.testimonial-three .testimonial-name[data-v-3d01b757] {\n  display: block;\n}\n.testimonial-three .testimonial-three-col[data-v-3d01b757] {\n  padding-bottom: 35px;\n}\n.testimonial-three .testimonial-three-col[data-v-3d01b757] {\n  border-right-style: dashed;\n  border-right-width: 1px;\n  border-bottom-style: dashed;\n  border-bottom-width: 1px;\n  border-right-color: #ddd;\n  border-bottom-color: #ddd;\n  padding: 25px;\n}\n.testimonial-three .testimonial-three-col[data-v-3d01b757]:hover {\n  background-color: #f7f7f7;\n}\n.alternate-color .testimonial-three .testimonial-three-col[data-v-3d01b757]:hover {\n  background-color: white;\n}\n.testimonial-three.testimonial-three--col-two .testimonial-three-col[data-v-3d01b757]:nth-child(2n) {\n  border-right: none;\n}\n.testimonial-three.testimonial-three--col-two .testimonial-three-col[data-v-3d01b757]:nth-last-child(-n+2),\n.testimonial-three.testimonial-three--col-two .testimonial-three-col[data-v-3d01b757]:last-child {\n  border-bottom: none;\n}\n.testimonial-three.testimonial-three--col-three .testimonial-three-col[data-v-3d01b757]:nth-child(3n) {\n  border-right: none;\n}\n.testimonial-three.testimonial-three--col-three .testimonial-three-col[data-v-3d01b757]:nth-last-child(-n+3),\n.testimonial-three.testimonial-three--col-three .testimonial-three-col[data-v-3d01b757]:nth-last-child(-n+2),\n.testimonial-three.testimonial-three--col-three .testimonial-three-col[data-v-3d01b757]:last-child {\n  border-bottom: none;\n}\n.testimonial-four .testimonial-author .testimonial-author-thumbnail[data-v-3d01b757] {\n  float: left;\n  margin-right: 15px;\n  width: auto;\n}\n.testimonial-four .testimonial-author img[data-v-3d01b757] {\n  max-width: 55px;\n}\n.testimonial-four .testimonial-author strong[data-v-3d01b757] {\n  display: block;\n  padding-top: 10px;\n  margin-bottom: -2px;\n  font-weight: 500;\n  font-size: 14px;\n  color: #444;\n}\n.testimonial-four .testimonial-author span[data-v-3d01b757] {\n  color: #666;\n  display: block;\n  font-size: 12px;\n}\n.testimonial-four blockquote[data-v-3d01b757] {\n  padding: 30px;\n  width: 100%;\n  border-radius: 4px;\n  position: relative;\n  margin-bottom: 20px;\n  padding-bottom: 25px;\n  border: 2px solid #eaeaea;\n}\n.testimonial-four blockquote[data-v-3d01b757]::after {\n  content: \"\";\n  border-right: 2px solid #eaeaea;\n  border-bottom: 2px solid #eaeaea;\n  transform: rotate(55deg);\n  position: absolute;\n  left: 55px;\n  bottom: -12px;\n  width: 15px;\n  height: 21px;\n  overflow: hidden;\n  background: white;\n}\n.testimonial-four .owl-theme .owl-nav.disabled + .owl-dots[data-v-3d01b757] {\n  position: absolute;\n  float: right;\n  text-align: right;\n  right: 3px;\n  bottom: 40px;\n}\n.testimonial-four .testimonial-author[data-v-3d01b757] {\n  position: relative;\n  overflow: hidden;\n}\n.testimonial-four blockquote[data-v-3d01b757]:hover::after {\n  border-right: 2px solid #0cb4ce;\n  border-bottom: 2px solid #0cb4ce;\n}\n.testimonial-four blockquote[data-v-3d01b757]:hover {\n  border: 2px solid #0cb4ce;\n}\n.testimonial-five blockquote p[data-v-3d01b757] {\n  font-weight: 400;\n  font-size: 14.58px;\n  line-height: 1.6;\n  margin-bottom: 0;\n}\n.testimonial-five .testimonial-author .testimonial-author-thumbnail[data-v-3d01b757] {\n  float: left;\n  margin-right: 15px;\n  width: auto;\n}\n.testimonial-five .testimonial-author img[data-v-3d01b757] {\n  max-width: 55px;\n}\n.testimonial-five .testimonial-author strong[data-v-3d01b757] {\n  display: block;\n  padding-top: 10px;\n  margin-bottom: -2px;\n  font-weight: 600;\n  font-size: 13px;\n}\n.testimonial-five .testimonial-author span[data-v-3d01b757] {\n  color: #666;\n  display: block;\n  font-size: 12px;\n}\n.testimonial-five blockquote[data-v-3d01b757] {\n  padding: 32px 41px 37px;\n  width: 100%;\n  border-radius: 4px;\n  position: relative;\n  margin-bottom: 30px;\n  border: 0px solid #eaeaea;\n  background-color: #f7f7f7;\n}\n.testimonial-five blockquote[data-v-3d01b757]::after {\n  content: \"\";\n  border-right: 0px solid #eaeaea;\n  border-bottom: 0px solid #eaeaea;\n  transform: rotate(55deg);\n  position: absolute;\n  left: 55px;\n  bottom: -10px;\n  width: 15px;\n  height: 21px;\n  overflow: hidden;\n  background: #f7f7f7;\n}\n.testimonial-five.testimonial-light blockquote[data-v-3d01b757] {\n  background-color: white;\n}\n.testimonial-five.testimonial-light blockquote[data-v-3d01b757]::after {\n  background: white;\n}\n.testimonial-five .owl-theme .owl-nav.disabled + .owl-dots[data-v-3d01b757] {\n  position: absolute;\n  float: right;\n  text-align: right;\n  right: 3px;\n  bottom: 40px;\n}\n.testimonial-five .testimonial-author[data-v-3d01b757] {\n  position: relative;\n  overflow: hidden;\n}\n.testimonial-five blockquote[data-v-3d01b757]:before {\n  content: \"\\201C\";\n  speak: none;\n  font-style: normal;\n  font-weight: normal;\n  font-variant: normal;\n  text-transform: none;\n  line-height: 1;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  font-size: 170px;\n  color: rgba(189, 189, 189, 0.2);\n  position: absolute;\n  top: 10px;\n  left: 20px;\n}\nimg[data-v-3d01b757] {\n  max-width: 100%;\n  height: auto;\n}", ""]);
+exports.push([module.i, "@charset \"UTF-8\";\nbody[data-v-3d01b757] {\n  margin-top: 20px;\n}\n.btn.btn-outline-primary[data-v-3d01b757]:hover,\n.bg-primary[data-v-3d01b757] {\n  background-color: #80cbc4 !important;\n}\n.section-medium[data-v-3d01b757] {\n  padding: 55px 0px;\n}\n.testimonial-four blockquote[data-v-3d01b757]:hover::after,\n.section-arrow-primary-color.section-arrow--bottom-center[data-v-3d01b757]:after {\n  border-right-color: #80cbc4;\n}\n.section-arrow-primary-color.section-arrow--bottom-center[data-v-3d01b757]:after {\n  background-color: #80cbc4;\n  border-right-color: #80cbc4;\n  border-bottom-color: #80cbc4;\n}\n.section-arrow--bottom-center[data-v-3d01b757]:after {\n  z-index: 1;\n  position: absolute;\n  left: 50%;\n  margin-left: -15px;\n  content: \"\";\n  position: absolute;\n  bottom: -15px;\n  width: 30px;\n  height: 30px;\n  border-right: 1px solid #262626;\n  border-bottom: 1px solid #262626;\n  transform: rotate(45deg);\n  background-color: #262626;\n}\n.text-white h1[data-v-3d01b757],\n.text-white h2[data-v-3d01b757],\n.text-white h3[data-v-3d01b757],\n.text-white h4[data-v-3d01b757],\n.text-white h5[data-v-3d01b757],\n.text-white h6[data-v-3d01b757] {\n  color: white !important;\n}\n.section-title[data-v-3d01b757] {\n  font-size: 32px;\n  font-weight: 600;\n  margin-top: 0.45em;\n  margin-bottom: 0.35em;\n  color: #303133;\n  letter-spacing: -0.02em;\n}\n.section-sub-title[data-v-3d01b757] {\n  font-size: 18px;\n  margin-bottom: 20px;\n  font-weight: 400;\n}\n.section-arrow-primary-color.section-arrow--bottom-center[data-v-3d01b757]:after {\n  border-bottom-color: #80cbc4;\n}\n.section-arrow-primary-color.section-arrow--bottom-center[data-v-3d01b757]:after {\n  background-color: #80cbc4;\n}\n.special-heading.line span[data-v-3d01b757]:before,\n.special-heading.line span[data-v-3d01b757]:after,\n.footer.footer-minimal[data-v-3d01b757],\n.t-bordered[data-v-3d01b757] {\n  border-top-color: #eaeaea;\n}\n.t-bordered[data-v-3d01b757] {\n  border-top: 1px solid #eaeaea;\n}\n.section-primary[data-v-3d01b757] {\n  padding: 75px 0px;\n}\nsection[data-v-3d01b757] {\n  position: relative;\n}\n.testimonial-two[data-v-3d01b757] {\n  padding: 20px;\n  border: 2px solid #80cbc4;\n  border-radius: 2px;\n}\n.testimonial-two blockquote p[data-v-3d01b757]:before {\n  font-size: 54px;\n  color: #0cb4ce;\n  font-weight: 900;\n  left: 10px;\n  color: #fff;\n  content: \"\\201C\";\n  font-style: normal;\n  line-height: 1;\n  position: absolute;\n  top: 5px;\n  font-size: 45px;\n}\n.testimonial-two blockquote p[data-v-3d01b757]:after {\n  font-size: 54px;\n  color: #0cb4ce;\n  content: \"\\201D\";\n  font-size: 80px;\n  font-style: normal;\n  line-height: 1;\n  position: absolute;\n  bottom: -0.5em;\n  right: 10px;\n  font-weight: 900;\n  transform: scaleY(-1);\n  font-size: 45px;\n  bottom: -5px;\n}\n.testimonial-two blockquote[data-v-3d01b757] {\n  padding: 15px 15px 15px 48px;\n  position: relative;\n}\n.testimonial-two blockquote p[data-v-3d01b757]:before,\n.testimonial-two blockquote p[data-v-3d01b757]:after {\n  color: #0cb4ce;\n  font-weight: 900;\n}\n.testimonial-two blockquote p[data-v-3d01b757] {\n  font-size: inherit;\n  font-weight: inherit;\n}\n.testimonial-two .testimonial-author p[data-v-3d01b757] {\n  color: #999;\n  margin: 0 0 0 25px;\n  text-align: left;\n}\n.testimonial-two .testimonial-author strong[data-v-3d01b757] {\n  display: block;\n  padding-top: 10px;\n  margin-bottom: -2px;\n  font-weight: 500;\n  font-size: 14px;\n  color: #444;\n}\n.testimonial-two .testimonial-author span[data-v-3d01b757] {\n  color: #666;\n  display: block;\n  font-size: 12px;\n}\n.testimonial-two .testimonial-author .testimonial-author-thumbnail[data-v-3d01b757] {\n  float: left;\n  margin-right: 15px;\n  width: auto;\n}\n.testimonial-two .testimonial-author img[data-v-3d01b757] {\n  max-width: 55px;\n}\n.testimonial-two .testimonial-author[data-v-3d01b757] {\n  margin-left: 12px;\n  margin-bottom: 15px;\n}\n.testimonial-two .owl-theme .owl-nav.disabled + .owl-dots[data-v-3d01b757] {\n  margin-top: 0px;\n}\n.testimonial-two .owl-theme .owl-dots[data-v-3d01b757] {\n  text-align: left;\n  margin-left: 50px;\n}\n.testimonial-two .owl-carousel .owl-dots .owl-dot.active span[data-v-3d01b757],\n.testimonial-two .owl-carousel .owl-dots .owl-dot:hover span[data-v-3d01b757] {\n  border-color: #0cb4ce;\n}\n.testimonial-two .owl-carousel .owl-dots .owl-dot.active span[data-v-3d01b757]:before,\n.testimonial-two .owl-carousel .owl-dots .owl-dot:hover span[data-v-3d01b757]:before {\n  background-color: #0cb4ce;\n}\n.testimonial-three .testimonial-image[data-v-3d01b757] {\n  float: left;\n  margin: 0 20px 0 0;\n  width: 80px;\n  height: 80px;\n  border-radius: 100px;\n  overflow: hidden;\n}\n.testimonial-three .testimonial-content[data-v-3d01b757] {\n  overflow: hidden;\n}\n.testimonial-three .testimonial-meta[data-v-3d01b757] {\n  position: relative;\n  overflow: hidden;\n  margin-left: 100px;\n}\n.testimonial-three .testimonial-name[data-v-3d01b757] {\n  display: block;\n}\n.testimonial-three .testimonial-three-col[data-v-3d01b757] {\n  padding-bottom: 35px;\n}\n.testimonial-three .testimonial-three-col[data-v-3d01b757] {\n  border-right-style: dashed;\n  border-right-width: 1px;\n  border-bottom-style: dashed;\n  border-bottom-width: 1px;\n  border-right-color: #ddd;\n  border-bottom-color: #ddd;\n  padding: 25px;\n}\n.testimonial-three .testimonial-three-col[data-v-3d01b757]:hover {\n  background-color: #f7f7f7;\n}\n.alternate-color .testimonial-three .testimonial-three-col[data-v-3d01b757]:hover {\n  background-color: white;\n}\n.testimonial-three.testimonial-three--col-two .testimonial-three-col[data-v-3d01b757]:nth-child(2n) {\n  border-right: none;\n}\n.testimonial-three.testimonial-three--col-two .testimonial-three-col[data-v-3d01b757]:nth-last-child(-n+2),\n.testimonial-three.testimonial-three--col-two .testimonial-three-col[data-v-3d01b757]:last-child {\n  border-bottom: none;\n}\n.testimonial-three.testimonial-three--col-three .testimonial-three-col[data-v-3d01b757]:nth-child(3n) {\n  border-right: none;\n}\n.testimonial-three.testimonial-three--col-three .testimonial-three-col[data-v-3d01b757]:nth-last-child(-n+3),\n.testimonial-three.testimonial-three--col-three .testimonial-three-col[data-v-3d01b757]:nth-last-child(-n+2),\n.testimonial-three.testimonial-three--col-three .testimonial-three-col[data-v-3d01b757]:last-child {\n  border-bottom: none;\n}\n.testimonial-four .testimonial-author .testimonial-author-thumbnail[data-v-3d01b757] {\n  float: left;\n  margin-right: 15px;\n  width: auto;\n}\n.testimonial-four .testimonial-author img[data-v-3d01b757] {\n  max-width: 55px;\n}\n.testimonial-four .testimonial-author strong[data-v-3d01b757] {\n  display: block;\n  padding-top: 10px;\n  margin-bottom: -2px;\n  font-weight: 500;\n  font-size: 14px;\n  color: #444;\n}\n.testimonial-four .testimonial-author span[data-v-3d01b757] {\n  color: #666;\n  display: block;\n  font-size: 12px;\n}\n.testimonial-four blockquote[data-v-3d01b757] {\n  padding: 30px;\n  width: 100%;\n  border-radius: 4px;\n  position: relative;\n  margin-bottom: 20px;\n  padding-bottom: 25px;\n  border: 2px solid #eaeaea;\n}\n.testimonial-four blockquote[data-v-3d01b757]::after {\n  content: \"\";\n  border-right: 2px solid #eaeaea;\n  border-bottom: 2px solid #eaeaea;\n  transform: rotate(55deg);\n  position: absolute;\n  left: 55px;\n  bottom: -12px;\n  width: 15px;\n  height: 21px;\n  overflow: hidden;\n  background: white;\n}\n.testimonial-four .owl-theme .owl-nav.disabled + .owl-dots[data-v-3d01b757] {\n  position: absolute;\n  float: right;\n  text-align: right;\n  right: 3px;\n  bottom: 40px;\n}\n.testimonial-four .testimonial-author[data-v-3d01b757] {\n  position: relative;\n  overflow: hidden;\n}\n.testimonial-four blockquote[data-v-3d01b757]:hover::after {\n  border-right: 2px solid #0cb4ce;\n  border-bottom: 2px solid #0cb4ce;\n}\n.testimonial-four blockquote[data-v-3d01b757]:hover {\n  border: 2px solid #0cb4ce;\n}\n.testimonial-five blockquote p[data-v-3d01b757] {\n  font-weight: 400;\n  font-size: 14.58px;\n  line-height: 1.6;\n  margin-bottom: 0;\n}\n.testimonial-five .testimonial-author .testimonial-author-thumbnail[data-v-3d01b757] {\n  float: left;\n  margin-right: 15px;\n  width: auto;\n}\n.testimonial-five .testimonial-author img[data-v-3d01b757] {\n  max-width: 55px;\n}\n.testimonial-five .testimonial-author strong[data-v-3d01b757] {\n  display: block;\n  padding-top: 10px;\n  margin-bottom: -2px;\n  font-weight: 600;\n  font-size: 13px;\n}\n.testimonial-five .testimonial-author span[data-v-3d01b757] {\n  color: #666;\n  display: block;\n  font-size: 12px;\n}\n.testimonial-five blockquote[data-v-3d01b757] {\n  padding: 32px 41px 37px;\n  width: 100%;\n  border-radius: 4px;\n  position: relative;\n  margin-bottom: 30px;\n  border: 0px solid #eaeaea;\n  background-color: #f7f7f7;\n}\n.testimonial-five blockquote[data-v-3d01b757]::after {\n  content: \"\";\n  border-right: 0px solid #eaeaea;\n  border-bottom: 0px solid #eaeaea;\n  transform: rotate(55deg);\n  position: absolute;\n  left: 55px;\n  bottom: -10px;\n  width: 15px;\n  height: 21px;\n  overflow: hidden;\n  background: #f7f7f7;\n}\n.testimonial-five.testimonial-light blockquote[data-v-3d01b757] {\n  background-color: white;\n}\n.testimonial-five.testimonial-light blockquote[data-v-3d01b757]::after {\n  background: white;\n}\n.testimonial-five .owl-theme .owl-nav.disabled + .owl-dots[data-v-3d01b757] {\n  position: absolute;\n  float: right;\n  text-align: right;\n  right: 3px;\n  bottom: 40px;\n}\n.testimonial-five .testimonial-author[data-v-3d01b757] {\n  position: relative;\n  overflow: hidden;\n}\n.testimonial-five blockquote[data-v-3d01b757]:before {\n  content: \"\\201C\";\n  speak: none;\n  font-style: normal;\n  font-weight: normal;\n  font-variant: normal;\n  text-transform: none;\n  line-height: 1;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  font-size: 170px;\n  color: rgba(189, 189, 189, 0.2);\n  position: absolute;\n  top: 10px;\n  left: 20px;\n}\nimg[data-v-3d01b757] {\n  max-width: 100%;\n  height: auto;\n}", ""]);
 
 // exports
 
@@ -5710,16 +5800,16 @@ var staticRenderFns = [
             _c("div", { staticClass: "row" }, [
               _c("div", { staticClass: "col-md-12 text-white text-center" }, [
                 _c("h2", { staticClass: "section-title " }, [
-                  _vm._v(" Cosa dicono di noi")
+                  _vm._v("Cosa dicono di noi")
                 ]),
                 _vm._v(" "),
                 _c("p", { staticClass: "section-sub-title" }, [
                   _vm._v(
-                    "\n                    Ecco cosa dice di noi chi si è già affidato a iSpecialists\n                    "
+                    "\n                        Ecco cosa dice di noi chi si è già affidato a\n                        iSpecialists\n                        "
                   ),
                   _c("br"),
                   _vm._v(
-                    " per trovare lo specialista adatto alle proprie esigenze.\n                "
+                    "\n                        per trovare lo specialista adatto alle proprie\n                        esigenze.\n                    "
                   )
                 ])
               ])
@@ -5758,7 +5848,7 @@ var staticRenderFns = [
                   _c("div", { staticClass: "testimonial-content" }, [
                     _c("p", [
                       _vm._v(
-                        "\n                            Che sito fantastico! Comodissimo perché posso cercare i dottori anche da mobile!\n                        "
+                        "\n                                Che sito fantastico! Comodissimo perché\n                                posso cercare i dottori anche da mobile!\n                            "
                       )
                     ])
                   ]),
@@ -5807,7 +5897,7 @@ var staticRenderFns = [
                   _c("div", { staticClass: "testimonial-content" }, [
                     _c("p", [
                       _vm._v(
-                        "\n                            Comodissimo il poter inviare al dottore un messaggio! Dovrebbe esserci su tutti i siti!!\n                        "
+                        "\n                                Comodissimo il poter inviare al dottore un\n                                messaggio! Dovrebbe esserci su tutti i\n                                siti!!\n                            "
                       )
                     ])
                   ]),
@@ -5819,7 +5909,7 @@ var staticRenderFns = [
                         staticClass: "testimonial-name",
                         attrs: { itemprop: "name" }
                       },
-                      [_vm._v("Gianfraschio ")]
+                      [_vm._v("Gianfraschio\n                            ")]
                     ),
                     _vm._v(" "),
                     _c(
@@ -5856,7 +5946,7 @@ var staticRenderFns = [
                   _c("div", { staticClass: "testimonial-content" }, [
                     _c("p", [
                       _vm._v(
-                        "\n                            Mi piace tantissimo!! Ho finalmente risolto il mio problema alla schiena con la dottoressa trovata qua sopra! Finalemnte posso tornare a fare la stripper!\n                        "
+                        "\n                                Mi piace tantissimo!! Ho finalmente risolto\n                                il mio problema alla schiena con la\n                                dottoressa trovata qua sopra! Finalemnte\n                                posso tornare a fare la stripper!\n                            "
                       )
                     ])
                   ]),
@@ -5905,7 +5995,7 @@ var staticRenderFns = [
                   _c("div", { staticClass: "testimonial-content" }, [
                     _c("p", [
                       _vm._v(
-                        "\n                            Non trovo sito migliore che questo! Ho avuto un problema dove non riuscivo a contattare lo specialista di cui avevo bisogno e l'assistenza mi ha subito risolto il problema.\n                        "
+                        "\n                                Non trovo sito migliore che questo! Ho avuto\n                                un problema dove non riuscivo a contattare\n                                lo specialista di cui avevo bisogno e\n                                l'assistenza mi ha subito risolto il\n                                problema.\n                            "
                       )
                     ])
                   ]),
@@ -5954,7 +6044,7 @@ var staticRenderFns = [
                   _c("div", { staticClass: "testimonial-content" }, [
                     _c("p", [
                       _vm._v(
-                        "\n                            Fantastico! Finalmente una piattaforma dove trovare tutti i professionisti della città di Milano! Ora non dovrò più perdere pomeriggi a cercare su google un dottore!\n                        "
+                        "\n                                Fantastico! Finalmente una piattaforma dove\n                                trovare tutti i professionisti della città\n                                di Milano! Ora non dovrò più perdere\n                                pomeriggi a cercare su google un dottore!\n                            "
                       )
                     ])
                   ]),
@@ -6003,7 +6093,7 @@ var staticRenderFns = [
                   _c("div", { staticClass: "testimonial-content" }, [
                     _c("p", [
                       _vm._v(
-                        "\n                            La miglior piattaforma in circolazione! Dovrebbe esistere per ogni città non solo per Milano!\n                        "
+                        "\n                                La miglior piattaforma in circolazione!\n                                Dovrebbe esistere per ogni città non solo\n                                per Milano!\n                            "
                       )
                     ])
                   ]),
@@ -6037,12 +6127,14 @@ var staticRenderFns = [
       _c("section", { staticClass: "py-5" }, [
         _c("div", { staticClass: "container" }, [
           _c("h1", { staticClass: "fw-light" }, [
-            _vm._v("In molti si sono già affidati a iSpecialists...")
+            _vm._v(
+              "\n                In molti si sono già affidati a iSpecialists...\n            "
+            )
           ]),
           _vm._v(" "),
           _c("p", { staticClass: "lead" }, [
             _vm._v(
-              "Unisciti agli oltre 123.000 utenti attivi sulla nostra piattaforma che cercano un professionista adatto alle loro esigenze. Scegli il tuo specialista oggi stesso."
+              "\n                Unisciti agli oltre 123.000 utenti attivi sulla nostra\n                piattaforma che cercano un professionista adatto alle loro\n                esigenze. Scegli il tuo specialista oggi stesso.\n            "
             )
           ])
         ])
