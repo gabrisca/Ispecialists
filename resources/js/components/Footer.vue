@@ -28,7 +28,7 @@
                             class="mb-3"
                         />
                         <p class="font-italic text-muted">
-                            Per rimanere aggiornato seguici sui nostri social.
+                            Per rimanere aggiornato seguici sui nostri social
                         </p>
                         <ul class="list-inline mt-4">
                             <li class="list-inline-item">
@@ -129,32 +129,6 @@
                         </ul>
                     </div>
                     <div class="col-lg-4 col-md-6 mb-lg-0">
-                        <!-- <h6 class="text-uppercase font-weight-bold mb-4">
-                            Newsletter
-                        </h6>
-                        <p class="text-muted mb-4">
-                            Iscriviti alla Newsletter per rimanere informato su
-                            tutte le novità.
-                        </p>
-                        <div class="p-1 rounded border">
-                            <div class="input-group">
-                                <input
-                                    type="email"
-                                    placeholder="Enter your email address"
-                                    aria-describedby="button-addon1"
-                                    class="form-control border-0 shadow-0"
-                                />
-                                <div class="input-group-append">
-                                    <button
-                                        id="button-addon1"
-                                        type="submit"
-                                        class="btn btn-link"
-                                    >
-                                        <i class="fa fa-paper-plane"></i>
-                                    </button>
-                                </div>
-                            </div>
-                        </div> -->
                         <img style="width:100%" src="../../../public/img/anticovid.png" alt="">
                     </div>
                 </div>
@@ -164,7 +138,7 @@
             <div class="bg-light py-4">
                 <div class="container text-center">
                     <p class="text-muted mb-0 py-2">
-                        © 2021 Team3 All rights reserved.
+                        © 2021 Team3 All rights reserved
                     </p>
                 </div>
             </div>

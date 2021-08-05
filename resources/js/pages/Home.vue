@@ -7,7 +7,7 @@
                 <div class="container">
                     <div class="text-home"> <!-- div text -->
                         <h1>Cerca il tuo prossimo specialista ora</h1>
-                        <h5>La nostra ricerca avanzata inoltre, ti permetterà di filtrare lo specialista in base al numero delle recensioni e in base ai suoi voti.</h5>
+                        <h5>La nostra ricerca avanzata inoltre, ti permetterà di filtrare lo specialista in base al numero delle recensioni e in base ai suoi voti</h5>
                     </div>
                     <div class="search-home"> <!-- div search -->
                         <div class="input-group search container mb-5 d-flex p-2 align-items-start" v-if="specs.length > 0"> <!-- campo di select -->

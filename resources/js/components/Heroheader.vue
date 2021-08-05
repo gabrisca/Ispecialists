@@ -3,7 +3,7 @@
         <section class="hero">
             <div class="content">
                 <h2>Cerca oggi il tuo specialista</h2>
-                <p>iSpecialists è la più grande piattaforma web dove trovare in pochi istanti il medico adatto alle proprie esigenze.</p>
+                <p>iSpecialists è la più grande piattaforma web dove trovare in pochi istanti il medico adatto alle proprie esigenze</p>
             </div>
             <div class="waves"></div>
         </section>

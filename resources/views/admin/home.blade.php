@@ -45,7 +45,7 @@
                         <div class="card m-2" style="width: 18rem;"> {{-- visualizza profilo --}}
                             <img class="card-img-top" src="https://picsum.photos/id/341/286/180" alt="Card image cap">
                             <div class="card-body">
-                              <h5 class="card-title">Vedi il tuo porfilo</h5>
+                              <h5 class="card-title">Vedi il tuo profilo</h5>
                               <p class="card-text">Qua vedrai il tuo porfilo personale e i tuoi dati aggiornati.</p>
                               <a href="{{ route('admin.profile.index') }}" class="btn btn-grad">Vai al tuo profilo</a>
                             </div>

@@ -13,7 +13,7 @@
                             iSpecialists
                             <br />
                             per trovare lo specialista adatto alle proprie
-                            esigenze.
+                            esigenze
                         </p>
                     </div>
                 </div>
@@ -221,7 +221,7 @@
                 <p class="lead">
                     Unisciti agli oltre 123.000 utenti attivi sulla nostra
                     piattaforma che cercano un professionista adatto alle loro
-                    esigenze. Scegli il tuo specialista oggi stesso.
+                    esigenze. Scegli il tuo specialista oggi stesso
                 </p>
             </div>
         </section>

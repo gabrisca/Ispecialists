@@ -2430,32 +2430,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
@@ -2775,8 +2749,20 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
-  name: 'Confirmation'
+  name: 'Confirmation',
+  data: function data() {
+    return {
+      colorx: '#009688',
+      colorx2: '#80CBC4'
+    };
+  }
 });
 
 /***/ }),
@@ -2806,8 +2792,20 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
-  name: 'Confirmation2'
+  name: 'Confirmation2',
+  data: function data() {
+    return {
+      colorx: '#009688',
+      colorx2: '#80CBC4'
+    };
+  }
 });
 
 /***/ }),
@@ -5809,7 +5807,7 @@ var staticRenderFns = [
                   ),
                   _c("br"),
                   _vm._v(
-                    "\n                        per trovare lo specialista adatto alle proprie\n                        esigenze.\n                    "
+                    "\n                        per trovare lo specialista adatto alle proprie\n                        esigenze\n                    "
                   )
                 ])
               ])
@@ -6134,7 +6132,7 @@ var staticRenderFns = [
           _vm._v(" "),
           _c("p", { staticClass: "lead" }, [
             _vm._v(
-              "\n                Unisciti agli oltre 123.000 utenti attivi sulla nostra\n                piattaforma che cercano un professionista adatto alle loro\n                esigenze. Scegli il tuo specialista oggi stesso.\n            "
+              "\n                Unisciti agli oltre 123.000 utenti attivi sulla nostra\n                piattaforma che cercano un professionista adatto alle loro\n                esigenze. Scegli il tuo specialista oggi stesso\n            "
             )
           ])
         ])
@@ -6525,7 +6523,7 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("p", { staticClass: "font-italic text-muted" }, [
         _vm._v(
-          "\n                        Per rimanere aggiornato seguici sui nostri social.\n                    "
+          "\n                        Per rimanere aggiornato seguici sui nostri social\n                    "
         )
       ]),
       _vm._v(" "),
@@ -6589,7 +6587,7 @@ var staticRenderFns = [
       _c("div", { staticClass: "container text-center" }, [
         _c("p", { staticClass: "text-muted mb-0 py-2" }, [
           _vm._v(
-            "\n                    © 2021 Team3 All rights reserved.\n                "
+            "\n                    © 2021 Team3 All rights reserved\n                "
           )
         ])
       ])
@@ -6779,7 +6777,7 @@ var staticRenderFns = [
           _vm._v(" "),
           _c("p", [
             _vm._v(
-              "iSpecialists è la più grande piattaforma web dove trovare in pochi istanti il medico adatto alle proprie esigenze."
+              "iSpecialists è la più grande piattaforma web dove trovare in pochi istanti il medico adatto alle proprie esigenze"
             )
           ])
         ]),
@@ -7279,47 +7277,81 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c("div", [
+    _c("body", [
+      _c(
+        "div",
+        { staticClass: "card" },
+        [
+          _vm._m(0),
+          _vm._v(" "),
+          _c("h1", [_vm._v("Recensione avvenuta con successo!")]),
+          _vm._v(" "),
+          _vm._m(1),
+          _vm._v(" "),
+          _c("p", { staticClass: "mb-3" }, [
+            _vm._v(
+              "Il dottore potrà vedere questa recensione, ricordati di scrivere in maniera educata e fatti veritieri."
+            )
+          ]),
+          _vm._v(" "),
+          _c(
+            "router-link",
+            { attrs: { to: { name: "home" } } },
+            [
+              _c(
+                "vs-button",
+                {
+                  attrs: {
+                    color: _vm.colorx,
+                    "gradient-color-secondary": _vm.colorx2,
+                    type: "gradient"
+                  }
+                },
+                [
+                  _vm._v(
+                    "\n                    Torna alla Home\n                "
+                  )
+                ]
+              )
+            ],
+            1
+          )
+        ],
+        1
+      )
+    ])
+  ])
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", [
-      _c("body", [
-        _c("div", { staticClass: "card" }, [
-          _c(
-            "div",
-            {
-              staticStyle: {
-                "border-radius": "200px",
-                height: "200px",
-                width: "200px",
-                background: "rgb(224, 242, 241)",
-                margin: "0 auto"
-              }
-            },
-            [_c("i", { staticClass: "checkmark" }, [_vm._v("✓")])]
-          ),
-          _vm._v(" "),
-          _c("h1", [_vm._v("Recensione avvenuta con successo!")]),
-          _vm._v(" "),
-          _c("p", [
-            _vm._v("Abbiamo ricevuto la tua recensione,"),
-            _c("br"),
-            _vm._v(
-              " la tua recensione sarà visibile per aiutare gli altri a scegliere lo specialista."
-            )
-          ]),
-          _vm._v(" "),
-          _c("p", [
-            _vm._v(
-              "Il dottore potrà vedere questa recensione, ricordati di scrivere in maniera educata e fatti veritieri."
-            )
-          ])
-        ])
-      ])
+    return _c(
+      "div",
+      {
+        staticStyle: {
+          "border-radius": "200px",
+          height: "200px",
+          width: "200px",
+          background: "rgb(224, 242, 241)",
+          margin: "0 auto"
+        }
+      },
+      [_c("i", { staticClass: "checkmark" }, [_vm._v("✓")])]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("p", [
+      _vm._v("Abbiamo ricevuto la tua recensione,"),
+      _c("br"),
+      _vm._v(
+        " la tua recensione sarà visibile per aiutare gli altri a scegliere lo specialista."
+      )
     ])
   }
 ]
@@ -7344,45 +7376,75 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c("div", [
+    _c("body", [
+      _c(
+        "div",
+        { staticClass: "card" },
+        [
+          _vm._m(0),
+          _vm._v(" "),
+          _c("h1", [_vm._v("Messaggio inviato con successo!")]),
+          _vm._v(" "),
+          _vm._m(1),
+          _vm._v(" "),
+          _c("p", { staticClass: "mb-3" }, [
+            _vm._v(
+              "Verrai ricontattato tramite il canale che hai scelto in fase di invio del messaggio."
+            )
+          ]),
+          _vm._v(" "),
+          _c(
+            "router-link",
+            { attrs: { to: { name: "home" } } },
+            [
+              _c(
+                "vs-button",
+                {
+                  attrs: {
+                    color: _vm.colorx,
+                    "gradient-color-secondary": _vm.colorx2,
+                    type: "gradient"
+                  }
+                },
+                [_vm._v("\n                Torna alla Home\n            ")]
+              )
+            ],
+            1
+          )
+        ],
+        1
+      )
+    ])
+  ])
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", [
-      _c("body", [
-        _c("div", { staticClass: "card" }, [
-          _c(
-            "div",
-            {
-              staticStyle: {
-                "border-radius": "200px",
-                height: "200px",
-                width: "200px",
-                background: "rgb(224, 242, 241)",
-                margin: "0 auto"
-              }
-            },
-            [_c("i", { staticClass: "checkmark" }, [_vm._v("✓")])]
-          ),
-          _vm._v(" "),
-          _c("h1", [_vm._v("Messaggio inviato con successo!")]),
-          _vm._v(" "),
-          _c("p", [
-            _vm._v("Lo specialista ha ricevuto il tuo messaggio,"),
-            _c("br"),
-            _vm._v(" riceverai una risposta nel minor tempo possibile.")
-          ]),
-          _vm._v(" "),
-          _c("p", [
-            _vm._v(
-              "Verrai ricontattato tramite il canale che hai scelto in fase di invio del messaggio."
-            )
-          ])
-        ])
-      ])
+    return _c(
+      "div",
+      {
+        staticStyle: {
+          "border-radius": "200px",
+          height: "200px",
+          width: "200px",
+          background: "rgb(224, 242, 241)",
+          margin: "0 auto"
+        }
+      },
+      [_c("i", { staticClass: "checkmark" }, [_vm._v("✓")])]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("p", [
+      _vm._v("Lo specialista ha ricevuto il tuo messaggio,"),
+      _c("br"),
+      _vm._v(" riceverai una risposta nel minor tempo possibile.")
     ])
   }
 ]
@@ -8134,7 +8196,7 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("h5", [
         _vm._v(
-          "La nostra ricerca avanzata inoltre, ti permetterà di filtrare lo specialista in base al numero delle recensioni e in base ai suoi voti."
+          "La nostra ricerca avanzata inoltre, ti permetterà di filtrare lo specialista in base al numero delle recensioni e in base ai suoi voti"
         )
       ])
     ])
@@ -8407,7 +8469,7 @@ var staticRenderFns = [
           _vm._v(" "),
           _c("p", [
             _vm._v(
-              "Qua le cards con i profili LinkedIn e GitHub del team che ha realizzato questo progetto."
+              "I profili LinkedIn e GitHub del team che ha realizzato questo progetto"
             )
           ])
         ]),

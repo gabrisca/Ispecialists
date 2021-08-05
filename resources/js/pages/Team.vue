@@ -4,7 +4,7 @@
         <div>
             <div class="container">
                 <h1>Conosci il Team3!</h1>
-                <p>Qua le cards con i profili LinkedIn e GitHub del team che ha realizzato questo progetto.</p>
+                <p>I profili LinkedIn e GitHub del team che ha realizzato questo progetto</p>
             </div>
             <div class="container"> <!-- container web dev -->
                 <div class="row"> <!-- row web dev -->
