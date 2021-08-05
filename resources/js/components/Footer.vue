@@ -7,7 +7,7 @@
                     <div class="col-lg-12 mx-auto text-white text-center">
                         <h1 class="display-4">iSpecialists</h1>
                         <p class="lead mb-0">
-                            Il futuro delle piattaforme mediche.
+                            Il futuro delle piattaforme mediche
                         </p>
                     </div>
                 </div>

@@ -6497,7 +6497,7 @@ var staticRenderFns = [
                 _vm._v(" "),
                 _c("p", { staticClass: "lead mb-0" }, [
                   _vm._v(
-                    "\n                        Il futuro delle piattaforme mediche.\n                    "
+                    "\n                        Il futuro delle piattaforme mediche\n                    "
                   )
                 ])
               ]
