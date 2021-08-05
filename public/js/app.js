@@ -2267,6 +2267,105 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
@@ -3298,6 +3397,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 
 
 
@@ -3479,7 +3579,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "body[data-v-61a7c374] {\n  background: #ff5f6d;\n  background: linear-gradient(to right, #26A69A, #B2DFDB);\n  min-height: 50vh;\n}\n#button-addon1[data-v-61a7c374] {\n  color: #B2DFDB;\n}\ni[data-v-61a7c374] {\n  color: #B2DFDB;\n}\n.form-control[data-v-61a7c374]::-moz-placeholder {\n  font-size: 0.95rem;\n  color: #aaa;\n  font-style: italic;\n}\n.form-control[data-v-61a7c374]:-ms-input-placeholder {\n  font-size: 0.95rem;\n  color: #aaa;\n  font-style: italic;\n}\n.form-control[data-v-61a7c374]::placeholder {\n  font-size: 0.95rem;\n  color: #aaa;\n  font-style: italic;\n}\n.form-control.shadow-0[data-v-61a7c374]:focus {\n  box-shadow: none;\n}", ""]);
+exports.push([module.i, "body[data-v-61a7c374] {\n  background: #ff5f6d;\n  background: linear-gradient(to right, #26a69a, #b2dfdb);\n  min-height: 50vh;\n}\n#button-addon1[data-v-61a7c374] {\n  color: #b2dfdb;\n}\ni[data-v-61a7c374] {\n  color: #b2dfdb;\n}\n.form-control[data-v-61a7c374]::-moz-placeholder {\n  font-size: 0.95rem;\n  color: #aaa;\n  font-style: italic;\n}\n.form-control[data-v-61a7c374]:-ms-input-placeholder {\n  font-size: 0.95rem;\n  color: #aaa;\n  font-style: italic;\n}\n.form-control[data-v-61a7c374]::placeholder {\n  font-size: 0.95rem;\n  color: #aaa;\n  font-style: italic;\n}\n.form-control.shadow-0[data-v-61a7c374]:focus {\n  box-shadow: none;\n}", ""]);
 
 // exports
 
@@ -6132,7 +6232,7 @@ var render = function() {
           _vm._v(" "),
           _c("div", { staticClass: "col-lg-2 col-md-6 mb-4 mb-lg-0" }, [
             _c("h6", { staticClass: "text-uppercase font-weight-bold mb-4" }, [
-              _vm._v("F.A.Q")
+              _vm._v("\n                        F.A.Q\n                    ")
             ]),
             _vm._v(" "),
             _c("ul", { staticClass: "list-unstyled mb-0" }, [
@@ -6204,7 +6304,9 @@ var render = function() {
           _vm._v(" "),
           _c("div", { staticClass: "col-lg-2 col-md-6 mb-4 mb-lg-0" }, [
             _c("h6", { staticClass: "text-uppercase font-weight-bold mb-4" }, [
-              _vm._v("The Company")
+              _vm._v(
+                "\n                        The Company\n                    "
+              )
             ]),
             _vm._v(" "),
             _c("ul", { staticClass: "list-unstyled mb-0" }, [
@@ -6302,7 +6404,9 @@ var staticRenderFns = [
                 ]),
                 _vm._v(" "),
                 _c("p", { staticClass: "lead mb-0" }, [
-                  _vm._v("Il futuro delle piattaforme mediche.")
+                  _vm._v(
+                    "\n                        Il futuro delle piattaforme mediche.\n                    "
+                  )
                 ])
               ]
             )
@@ -6328,7 +6432,9 @@ var staticRenderFns = [
       }),
       _vm._v(" "),
       _c("p", { staticClass: "font-italic text-muted" }, [
-        _vm._v("Per rimanere aggiornato seguici sui nostri social.")
+        _vm._v(
+          "\n                        Per rimanere aggiornato seguici sui nostri social.\n                    "
+        )
       ]),
       _vm._v(" "),
       _c("ul", { staticClass: "list-inline mt-4" }, [
@@ -6378,12 +6484,12 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "col-lg-4 col-md-6 mb-lg-0" }, [
       _c("h6", { staticClass: "text-uppercase font-weight-bold mb-4" }, [
-        _vm._v("Newsletter")
+        _vm._v("\n                        Newsletter\n                    ")
       ]),
       _vm._v(" "),
       _c("p", { staticClass: "text-muted mb-4" }, [
         _vm._v(
-          "Iscriviti alla Newsletter per rimanere informato su tutte le novità."
+          "\n                        Iscriviti alla Newsletter per rimanere informato su\n                        tutte le novità.\n                    "
         )
       ]),
       _vm._v(" "),
@@ -6419,7 +6525,9 @@ var staticRenderFns = [
     return _c("div", { staticClass: "bg-light py-4" }, [
       _c("div", { staticClass: "container text-center" }, [
         _c("p", { staticClass: "text-muted mb-0 py-2" }, [
-          _vm._v("© 2021 Team3 All rights reserved.")
+          _vm._v(
+            "\n                    © 2021 Team3 All rights reserved.\n                "
+          )
         ])
       ])
     ])
@@ -8013,7 +8121,23 @@ var render = function() {
         ])
       ]),
       _vm._v(" "),
-      _c("p", [_vm._v(_vm._s(_vm.user.bio))]),
+      _c(
+        "div",
+        {
+          staticStyle: {
+            "overflow-wrap": "break-word",
+            "word-wrap": "break-word",
+            overflow: "hidden",
+            "white-space": "nowrap",
+            "text-overflow": "ellipsis"
+          }
+        },
+        [
+          _c("p", { staticStyle: { "white-space": "pre" } }, [
+            _vm._v(_vm._s(_vm.user.bio))
+          ])
+        ]
+      ),
       _vm._v(" "),
       _c("div", { staticClass: "mb-5" }, [
         _c("h4", { staticClass: "mb-2" }, [_vm._v("I servizi attivi: ")]),

@@ -79,6 +79,9 @@
                                     <a class="dropdown-item" href="{{ route('admin.review') }}" >
                                         Recensioni
                                     </a>
+                                    <a class="dropdown-item" href="{{ route('admin.stat') }}" >
+                                        Statistiche
+                                    </a>
                                     <a class="dropdown-item" href="{{ route('logout') }}"
                                     onclick="event.preventDefault();
                                                   document.getElementById('logout-form').submit();">

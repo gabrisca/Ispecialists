@@ -12,8 +12,9 @@
                     <p>{{user.address}}</p>
                 </div>
             </div>
-
-        <p>{{user.bio}}</p>
+        <div style="overflow-wrap: break-word; word-wrap: break-word; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">
+            <p style="white-space: pre; ">{{user.bio}}</p>
+        </div>
 
         <div class="mb-5">
             <h4 class="mb-2">I servizi attivi: </h4>

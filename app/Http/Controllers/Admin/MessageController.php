@@ -20,4 +20,10 @@ class MessageController extends Controller
             $messages = Message::where('user_id', $doctor_id)->get();
         return view('admin.profiles.messages', compact('user', 'messages'));
     }
+    // public function destroy($id)
+    // {
+    //     $message = Message::find($id);
+    //     $message->delete();
+    //     return redirect()->route('messages.index');
+    // }
 }

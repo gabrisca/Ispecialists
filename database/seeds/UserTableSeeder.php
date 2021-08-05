@@ -33,7 +33,8 @@ class UserTableSeeder extends Seeder
 
             dal 1975 al 2001 Assistente e quindi Aiuto della Chirurgia Generale dell\'Ospedale San Carlo Nancy di Roma;
 
-            dal 1982 ad oggi Dirigente dello Studio di Andrologia e di Chirurgia Andrologica di Roma, prima struttura andrologica privata di Roma;
+            dal 1982 ad oggi Dirigente dello Studio di Andrologia e di Chirurgia Andrologica di Roma,
+            prima struttura andrologica privata di Roma;
 
             Ha pubblicato oltre 200 articoli su riviste straniere ed italiane, Editor di Diagnosing Impotence (Masson 1989), Diagnosing Infertility (Karger, 1991);
 
@@ -45,7 +46,8 @@ class UserTableSeeder extends Seeder
 
             Frequenza istituto e laboratori della Clinica Medica V, Università Sapienza di Roma dal 1970 al 1974;
 
-            Frequenza del Reparto di Urologia Klinikum Steglitz di Berlino 1981, 1982, 1983. Istituto Andrologico de Baleares dal 1984 al 1987;
+            Frequenza del Reparto di Urologia Klinikum Steglitz di Berlino 1981, 1982, 1983.
+            Istituto Andrologico de Baleares dal 1984 al 1987;
 
             lavora presso alcune strutture accreditate con il SSN.',
 
@@ -59,7 +61,9 @@ class UserTableSeeder extends Seeder
 
             - Laurea in Medicina e Chirurgia presso l\'Università degli Studi G. D\'Annunzio di Chieti (ottobre 2002);
 
-            - Principali mansioni e responsabilità Attività clinico assistenziale (UTIC, PS, Reparto di Cardiologia) Attività diagnostica non invasiva (ecocardiografia transtoracica, test ergometrico, Holter ECG, Monitoraggio Pressorio, ecoDoppler TSA);
+            - Principali mansioni e responsabilità
+            Attività clinico assistenziale (UTIC, PS, Reparto di Cardiologia)
+            Attività diagnostica non invasiva
 
             - Attività interventistica in sala di emodinamica:
             diagnostica vascolare coronarica e periferica, angioplastiche coronariche e periferiche;
@@ -84,12 +88,13 @@ class UserTableSeeder extends Seeder
 
             Ha effettuato diversi Master in Dermatoscopia digitale.
 
-            Dal 1999, vincitore di concorso pubblico come Dirigente Medico I° livello (ex Aiuto), presso l’Azienda Ospedaliera di Alta Specializzazione Garibaldi-Catania, nell’U.O. di Dermatologia e Venereologia.',
+            Dal 1999, vincitore di concorso pubblico come Dirigente Medico I° livello (ex Aiuto)',
 
 
             'TITOLI CONSEGUITI
 
-            - Specializzazione, Magna Cum Laude, in Endocrinologia e Malattie del Ricambio, conseguita presso la II Università degli Studi di Roma, "Tor Vergata";
+            - Specializzazione, Magna Cum Laude, in Endocrinologia e Malattie del Ricambio,
+            conseguita presso la II Università degli Studi di Roma, "Tor Vergata";
 
             - Ricercatrice in Neuroscienze  presso la Georgetown University, Washington, D. C. USA (1992);
 
@@ -98,9 +103,10 @@ class UserTableSeeder extends Seeder
 
             CURRICULUM
 
-            - Laurea in Medicina e Chirurgia, Magna Cum Laude, conseguita presso l\'Università Cattolica del Sacro Cuore di Roma (luglio 1989);
+            - Laurea in Medicina e Chirurgia, Magna Cum Laude,
+            conseguita presso l\'Università Cattolica del Sacro Cuore di Roma (luglio 1989);
 
-            - Attività di ricerca nel campo della “Neuroimmunoendocrinologia”, i cui risultati sono stati pubblicati su riviste internazionali e presentati a congressi nazionali ed internazionali;
+            - Attività di ricerca nel campo della “Neuroimmunoendocrinologia”,
 
             - Insegnamento di Patologia Generale presso la scuola per infermieri professionali, San Giuseppe di Roma;
 
@@ -115,7 +121,8 @@ class UserTableSeeder extends Seeder
 
             'TITOLI DI STUDIO
 
-            - Specializzazione con Lode in Endocrinologia e Malattie del Ricambio presso l\'Università degli Studi di Roma "La Sapienza".
+            - Specializzazione con Lode in Endocrinologia e Malattie del Ricambio
+            presso l\'Università degli Studi di Roma "La Sapienza".
 
             CURRICULUM E ATTIVITA\'
 
@@ -130,18 +137,21 @@ class UserTableSeeder extends Seeder
 
             - Specializzazione in genetica medica(2004);
 
-            - Specializzazione con Lode in Medicina dello Sport presso L\'Università degli Studi di Roma "La Sapienza" (2007);
+            - Specializzazione con Lode in Medicina dello Sport
+            presso L\'Università degli Studi di Roma "La Sapienza" (2007);
 
 
             Curriculum e attività:
 
             - 2007-2008 Referente antidoping del Comitato Italiano Paralimpico.
             - 2007-2008 Medico addetto alle squadre nazionali della Federazione Italiana Canottaggio.
-            - 2007-2008 collaborazione con l’Unità di Sincope, Dipartimento di Cardiologia, dell’Ospedale G. B. Grassi di Ostia diretto dal Prof. Ammirati;
-            - Gennaio-Febbraio 2009 Periodo di training presso il dipartimento di cardiologia del King’s College Hospital and University Hospital Lewisham, Londra- U.K.;
+            - 2007-2008 collaborazione con l’Unità di Sincope,
+            Dipartimento di Cardiologia, dell’Ospedale G. B. Grassi di Ostia diretto dal Prof. Ammirati;
+            - Gennaio-Febbraio 2009 Periodo di training
+            presso il dipartimento di cardiologia del King’s College Hospital;
             - Dal 2007 docente presso la Scuola dello Sport del Lazio;
             - Dal 2007 Medico Doping Control Officer per la FMSI;
-            - Attualmente in servizio presso l’Istituto Nazionale di Medicina e Scienze dello Sport “Giulio Onesti” di Roma nel dipartimento di Medicina e Cardiologia dello Sport diretto dal Prof. A. Mirafiori;',
+            - Attualmente in servizio presso l’Istituto Nazionale di Medicina e Scienze dello Sport “Giulio Onesti”',
 
 
             '
@@ -174,20 +184,23 @@ class UserTableSeeder extends Seeder
             - Specializzazione in Endocrinologia presso l’Università degli Studi di Roma “La Sapienza” nel 1977.
             # Curriculum e attività
             Laurea in Medicina e Chirurgia presso l’Università degli Studi di Roma “La Sapienza” (luglio 1974);
-            dal 1975 al 2001 Assistente e quindi Aiuto della Chirurgia Generale dell\'Ospedale San Carlo Nancy di Roma;
-            dal 1982 ad oggi Dirigente dello Studio di Andrologia e di Chirurgia Andrologica di Roma, prima struttura andrologica privata di Roma;
-            Ha pubblicato oltre 200 articoli su riviste straniere ed italiane, Editor di Diagnosing Impotence (Masson 1989), Diagnosing Infertility (Karger, 1991);
-            organizzatore degli International Meeting of Andrology che hanno portato a Roma i più grandi andrologi del mondo;
-            visitato oltre 30.000 pazienti con patologie andrologiche; una ricche casistica personale di protesi peniene (oltre 500);
+            dal 1975 al 2001 Assistente e quindi Aiuto della Chirurgia Generale
+            Ospedale San Carlo Nancy di Roma;
+            dal 1982 ad oggi Dirigente dello Studio di Andrologia e di Chirurgia Andrologica di Roma
+
+            Ha pubblicato oltre 200 articoli su riviste straniere ed italiane,
+            Editor di Diagnosing Impotence (Masson 1989), Diagnosing Infertility (Karger, 1991);
+            visitato oltre 30.000 pazienti con patologie andrologiche;
             Frequenza istituto e laboratori della Clinica Medica V, Università Sapienza di Roma dal 1970 al 1974;
-            Frequenza del Reparto di Urologia Klinikum Steglitz di Berlino 1981, 1982, 1983. Istituto Andrologico de Baleares dal 1984 al 1987;
+            Frequenza del Reparto di Urologia Klinikum Steglitz di Berlino 1981, 1982, 1983.
             lavora presso alcune strutture accreditate con il SSN.',
 
             '# Titoli conseguiti
             - Specializzazione in Cardiologia conseguita presso l\'Università degli Studi di Pavia (ottobre 2006).
             # Curriculum e attività
             - Laurea in Medicina e Chirurgia presso l\'Università degli Studi G. D\'Annunzio di Chieti (ottobre 2002);
-            - Principali mansioni e responsabilità Attività clinico assistenziale (UTIC, PS, Reparto di Cardiologia) Attività diagnostica non invasiva (ecocardiografia transtoracica, test ergometrico, Holter ECG, Monitoraggio Pressorio, ecoDoppler TSA);
+            - Principali mansioni e responsabilità Attività clinico assistenziale (UTIC, PS, Reparto di Cardiologia)
+            Attività diagnostica non invasiva
             - Attività interventistica in sala di emodinamica: diagnostica vascolare coronarica e periferica, angioplastiche coronariche e periferiche;
             - 1998-1999 Tirocinio elettivo presso l’Istituto di Medicina interna;
             - 1999-2002 Medico interno presso la Divisione di Cardiologia (Responsabile Prof. R De Caterina).',
@@ -202,22 +215,28 @@ class UserTableSeeder extends Seeder
             Area distrettuale di Busto Arsizio - Viale Lombardia 51, 21052 Busto A. (VA)
             Area distrettuale di Gallarate - Via E. Pastori 4, 21013 Gallarate (VA)
             Da agosto 2013:
-            Attività di sostituzione di Medici di Assistenza Primaria (MAP) sul territorio di Milano, Varese e provincia;
-            Assistenza medica a gare e manifestazioni sportive in collaborazione con la federazione italiana di atletica leggera (FIDAL);
+            Attività di sostituzione di Medici di Assistenza Primaria (MAP) sul territorio di Milano;
+            Assistenza medica a gare e manifestazioni sportive;
 
             Novembre 2018
-            Master of Professional Empowerment: Management, Comunicazione, Economia Sanitaria e Ricerca Clinica. Scuola Italiana di Formazione e Ricerca in Medicina di Famiglia, Como
+            Master of Professional Empowerment: Management, Comunicazione, Economia Sanitaria e Ricerca Clinica.
+            Scuola Italiana di Formazione e Ricerca in Medicina di Famiglia, Como
             Ottobre 2017
-            Corso teorico – pratico di I livello in ossigeno ozono terapia. Società Scientifica di ossigeno ozono terapia SIOOT, Gorle (BG)
+            Corso teorico – pratico di I livello in ossigeno ozono terapia.
+            Società Scientifica di ossigeno ozono terapia SIOOT, Gorle (BG)
             Da dicembre 2014 a dicembre 2017
-            Corso di Formazione Specifica in Medicina Generale (triennio 2014 – 2017), Ospedale di Circolo di Busto Arsizio, Ospedale di Saronno e Tradate (VA)
+            Corso di Formazione Specifica in Medicina Generale (triennio 2014 – 2017),
+            Ospedale di Circolo di Busto Arsizio, Ospedale di Saronno e Tradate (VA)
             Luglio 2013
             Abilitazione Professionale conseguita nella prima sessione dell’esame di Stato dell’anno 2013.
             Iscrizione all’Ordine dei Medici di Varese dal 23/07/2013 al n° 07344
             Marzo 2013
-            Laurea conseguita a pieni voti, con tesi dal titolo “Terapia chirurgica laser del carcinoma basocellulare cutaneo”, relatore Prof. Nicola Zerbinati, presso la Facoltà di Medicina e Chirurgia dell’Università degli Studi dell’Insubria di Varese. Anno Accademico 2011/2012.
+            Laurea conseguita a pieni voti,
+            con tesi dal titolo “Terapia chirurgica laser del carcinoma basocellulare cutaneo”,
+            relatore Prof. Nicola Zerbinati. di Varese.
             Luglio 2004
-            Diploma di maturità scientifica conseguito presso il Liceo Scientifico Collegio Rotondi, Gorla Minore (VA), con votazione 90/100.
+            Diploma di maturità scientifica conseguito presso il Liceo Scientifico Collegio Rotondi
+            votazione 90/100.
 
             Attitudine a instaurare buoni rapporti con colleghi a favore di un sereno clima lavorativo;
             differenziata, di adattamento ad ambienti multiculturali e di dialogo.',
@@ -232,35 +251,40 @@ class UserTableSeeder extends Seeder
             Fondazione Madonna della Croce Onlus, via Ospedale 1 -21059 Viggiù (VA)
             Struttura per anziani
             Medico di Struttura
-            Servizio di Assistenza medica degli Ospiti degenti ed espletamento di tutte le principali mansioni inerenti l’esercizio della professione medica, comprendenti turni di reperibilità telefonica.
+
             Dal 7 dicembre 2015 al 24 novembre 2016
             Edos Srl, sede legale in via S. da Foiano 14 – 50125 Firenze
             RSA San Luigi Gonzaga – via Garibaldi 29, Gorla Minore (VA)
             Attività di Medico di Struttura.
-            Servizio di Assistenza medica degli Ospiti degenti, operando in sinergia con la dirigenza della Struttura: verifica delle condizioni di salute degli Ospiti, tramite visite periodiche; prescrizione e disposizioni sanitarie, supervisione e controllo della corretta somministrazione delle terapie prescritte verificando altresì il corretto adempimento dei servizi; servizio di reperibilità telefonica, feriale e festiva.
+            Servizio di Assistenza medica degli Ospiti degenti, operando in sinergia con la dirigenza della Struttura:
+            verifica delle condizioni di salute degli Ospiti, tramite visite periodiche;
+            prescrizione e disposizioni sanitarie,
+            supervisione e controllo della corretta somministrazione delle terapie
+            servizio di reperibilità telefonica, feriale e festiva.
             Dall’ 8 aprile al 3 settembre 2020
             Medico di Medicina Generale con incarico provvisorio presso l’ambito di Busto Arsizio (VA)
             ESAMED viale Luigi Cadorna 31, 21057 Busto Arsizio (VA)
             Dal 21 dicembre 2020
             BAOBAB Cooperativa Sociale, via Zara 12 – 21049 Tradate (VA)
             Medico di Medicina Generale
-            Assistenza Medica presso il domicilio degli utenti indicati dalla cooperativa stessa e presso la loro sede
-            Dal 30 dicembre 2020
             Ge.A.S.C., con sede in Vicolo Sereni 29 – 21054 Fagnano Olona (VA)
             Gestione Aziendale Servizi Comunali
             Assistenza Medica all’attività ambulatoriale di prelievo per analisi
             Dal 1 marzo 2021
-            Medico di Medicina Generale con incarico definitivo presso l’ambito di Fagnano Olona - Olgiate Olona - Solbiate Olona (VA)
+            Medico di Medicina Generale con incarico definitivo presso l’ambito di Fagnano Olona
             C.M.M.G. Centro Medico Medicina di Gruppo, via Montello 2/A, 21054 Fagnano Olona',
 
             'TITOLI DI STUDIO
-            - Specializzazione con Lode in Endocrinologia e Malattie del Ricambio presso l\'Università degli Studi di Roma "La Sapienza".
+            - Specializzazione con Lode in Endocrinologia e Malattie del Ricambio
+            Università degli Studi di Roma "La Sapienza".
 
 
             CURRICULUM E ATTIVITA\'
 
-            Laurea in Medicina e Chirurgia presso l\'Università degli Studi di Roma "La Sapienza" (ottobre 1991);
-            Dirigente Medico Endocrinologa presso l\'Ospedale di San Giovanni Addolorata di Roma.',
+            Laurea in Medicina e Chirurgia presso
+            Università degli Studi di Roma "La Sapienza" (ottobre 1991);
+            Dirigente Medico Endocrinologa presso
+            Ospedale di San Giovanni Addolorata di Roma.',
 
             'TITOLI DI STUDIO
 
@@ -268,15 +292,13 @@ class UserTableSeeder extends Seeder
 
 
             CURRICULUM E ATTIVITA\'
-            - Laurea in Medicina e Chirurgia conseguita presso l’Università degli Studi di Roma “La Sapienza” (2004).
+            - Laurea in Medicina e Chirurgia
             - 2007-2008 Referente antidoping del Comitato Italiano Paralimpico.
             - 2007-2008 Medico addetto alle squadre nazionali della Federazione Italiana Canottaggio.
-            - 2007-2008 collaborazione con l’Unità di Sincope, Dipartimento di Cardiologia, dell’Ospedale G. B. Grassi di Ostia diretto dal Prof. Ammirati;
-            - Gennaio-Febbraio 2009 Periodo di training presso il dipartimento di cardiologia del King’s College Hospital and University Hospital Lewisham, Londra- U.K.;
+            - 2007-2008 collaborazione con l’Unità di Sincope, Dipartimento di Cardiologia
             - Dal 2007 docente presso la Scuola dello Sport del Lazio;
             - Dal 2007 Medico Doping Control Officer per la FMSI;
-            - Attualmente in servizio presso l’Istituto Nazionale di Medicina e Scienze dello Sport “Giulio Onesti” di Roma nel dipartimento di Medicina e Cardiologia dello Sport diretto dal Prof. A. Pelliccia;
-            - Attualmente in servizio presso l’ambulatorio di cardiologia dell’Associazione Cavalieri Italiani del Sovrano Militare dell’Ordine di Malta.'
+            - Attualmente in servizio presso l’Istituto Nazionale di Medicina e Scienze dello Sport “Giulio Onesti” di Roma'
         ];
 
         for($i=0; $i < 100; $i++){

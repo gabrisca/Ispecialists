@@ -20,7 +20,8 @@
                     background: linear-gradient(338deg, rgba(200, 230, 201, .3) 0%, rgba(224, 242, 241, 0.3) 0%); border:1px solid rgb(0, 77, 64)">
                     <div class="mb-3">
                         <div class="d-flex justify-content-lg-between">
-                            <h5>Inviato da: {{$message->patient_name}} {{$message->patient_surname}} <span class="badge badge-success">New</span></h5>
+                            <h5>Inviato da: {{$message->patient_name}} {{$message->patient_surname}}</h5>
+                            {{-- <span class="badge badge-success">New</span> --}}
                             <div><a href="mailto:{{ $message->patient_mail }}">Rispondi <i class="far fa-share-square" style="color: rgb(0, 77, 64)"></i></a></div>
                         </div>
                         <h6><a href="mailto:{{ $message->patient_mail }}">{{$message->patient_mail}}</a></h6>
@@ -30,7 +31,6 @@
                         <p><small>Data e orario dell'invio: {{$message->added_on}}</small></p>
                     </div>
                 </div>
-
                 @endforeach
             </div>
 
