@@ -129,7 +129,7 @@
                         </ul>
                     </div>
                     <div class="col-lg-4 col-md-6 mb-lg-0">
-                        <h6 class="text-uppercase font-weight-bold mb-4">
+                        <!-- <h6 class="text-uppercase font-weight-bold mb-4">
                             Newsletter
                         </h6>
                         <p class="text-muted mb-4">
@@ -154,8 +154,8 @@
                                     </button>
                                 </div>
                             </div>
-                        </div>
-                        <!-- <img style="width:100%" src="../../../public/img/anticovid.png" alt=""> -->
+                        </div> -->
+                        <img style="width:100%" src="../../../public/img/anticovid.png" alt="">
                     </div>
                 </div>
             </div>

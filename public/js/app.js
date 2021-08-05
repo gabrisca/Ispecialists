@@ -6483,39 +6483,10 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "col-lg-4 col-md-6 mb-lg-0" }, [
-      _c("h6", { staticClass: "text-uppercase font-weight-bold mb-4" }, [
-        _vm._v("\n                        Newsletter\n                    ")
-      ]),
-      _vm._v(" "),
-      _c("p", { staticClass: "text-muted mb-4" }, [
-        _vm._v(
-          "\n                        Iscriviti alla Newsletter per rimanere informato su\n                        tutte le novità.\n                    "
-        )
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "p-1 rounded border" }, [
-        _c("div", { staticClass: "input-group" }, [
-          _c("input", {
-            staticClass: "form-control border-0 shadow-0",
-            attrs: {
-              type: "email",
-              placeholder: "Enter your email address",
-              "aria-describedby": "button-addon1"
-            }
-          }),
-          _vm._v(" "),
-          _c("div", { staticClass: "input-group-append" }, [
-            _c(
-              "button",
-              {
-                staticClass: "btn btn-link",
-                attrs: { id: "button-addon1", type: "submit" }
-              },
-              [_c("i", { staticClass: "fa fa-paper-plane" })]
-            )
-          ])
-        ])
-      ])
+      _c("img", {
+        staticStyle: { width: "100%" },
+        attrs: { src: __webpack_require__(/*! ../../../public/img/anticovid.png */ "./public/img/anticovid.png"), alt: "" }
+      })
     ])
   },
   function() {
@@ -40641,6 +40612,17 @@ try {
 
 module.exports = g;
 
+
+/***/ }),
+
+/***/ "./public/img/anticovid.png":
+/*!**********************************!*\
+  !*** ./public/img/anticovid.png ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/anticovid.png?131a5e0c9aeaa6583cfd6f97e94ec80a";
 
 /***/ }),
 
